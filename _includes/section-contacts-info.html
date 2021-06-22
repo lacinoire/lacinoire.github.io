@@ -1,0 +1,28 @@
+{% assign content = site.data.content['contacts_info'] %}
+
+<!-- Conacts Info -->
+<div class="content contacts">
+
+	{{ if content.title != '' }}
+	<!-- title -->
+	<div class="title">{{ content.title }}</div>
+	{{ endif }}
+
+	<!-- content -->
+	<div class="row">
+		<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+			{% if site.google_maps_api_key != '' %}
+			<div class="map" id="map" data-lat="{{ site.google_maps_lat }}" data-long="{{ site.google_maps_long }}" data-zoom="{{ site.google_maps_zoom }}"></div>
+			{% endif %}
+			<div class="info-list">
+				<ul>
+					{% for item in content.list %}
+					<li><strong>{{ item.label }}: </strong> {{ item.value }}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+</div>

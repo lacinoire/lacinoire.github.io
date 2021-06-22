@@ -1,0 +1,44 @@
+# Vcard configuration file
+##
+### param "bgimage" - Background Image or Background Photo
+### param "photo" - Small circle photo
+### param "name" - Your Name
+### param "typed" - Typed text under Name
+### param "social" - Social Links, icon class name you can find here https://fontawesome.com/icons?d=gallery&s=brands&m=free
+### param "buttons" - Buttons, icon class you can find here https://ionicons.com/v4/
+
+main:
+  bgimage: "assets/img/bg.jpg"
+  photo: ""
+  name: "Carolin Brandt"
+  typed:
+    - text: "PhD Student"
+    - text: "Researcher"
+    - text: "Software Developer"
+    - text: "Supervisor"
+  social:
+    - title: "Twitter"
+      icon: "fab fa-twitter"
+      url: "https://twitter.com/laci_noire"
+    - title: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/lacinoire"
+    - title: "Blog"
+      icon: "fab fa-pen-alt"
+      url: "https://blog.carolin-brandt.de"
+    # - title: "Spotify"
+    #   icon: "fab fa-spotify"
+    #   url: "https://www.spotify.com/"
+    # - title: "Stackoverflow"
+    #   icon: "fab fa-stack-overflow"
+    #   url: "https://stackoverflow.com/"
+    - title: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/carolin-brandt"
+  buttons:
+    # - title: "Download CV"
+    #   icon: ""
+    #   url: "https://drive.google.com/"
+    - title: "Write me!"
+      icon: ""
+      url: "mailto:c.e.brandt@tudelft.nl"

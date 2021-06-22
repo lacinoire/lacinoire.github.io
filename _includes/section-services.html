@@ -1,0 +1,29 @@
+{% assign content = site.data.content['services'] %}
+
+<!-- Services -->
+<div class="content services">
+
+	{{ if content.title != '' }}
+	<!-- title -->
+	<div class="title">{{ content.title }}</div>
+	{{ endif }}
+
+	<!-- content -->
+	<div class="row service-items border-line-v">
+		{% for item in content.items %}
+		<!-- service item -->
+		<div class="col col-d-6 col-t-6 col-m-12{% if item.h_line == 1 %} border-line-h{% endif %}">
+			<div class="service-item">
+				<div class="icon"><span class="ion ion-{{ item.icon }}"></span></div>
+				<div class="name">{{ item.name }}</div>
+				<p>
+					{{ item.text }}
+				</p>
+			</div>
+		</div>
+		{% endfor %}
+
+		<div class="clear"></div>
+	</div>
+
+</div>

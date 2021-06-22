@@ -1,0 +1,42 @@
+{% assign content = site.data.content['testimonials'] %}
+
+<!-- Testimonials -->
+<div class="content testimonials">
+
+	{{ if content.title != '' }}
+	<!-- title -->
+	<div class="title">{{ content.title }}</div>
+	{{ endif }}
+
+	<!-- content -->
+	<div class="row testimonials-items">
+
+		<!-- client item -->
+		<div class="col col-d-12 col-t-12 col-m-12 border-line-v">
+			<div class="revs-carousel default-revs">
+				<div class="owl-carousel">
+					{% for item in content.items %}
+					<div class="item">
+						<div class="revs-item">
+							<div class="text">
+								{{ item.text }}
+							</div>
+							<div class="user">
+								<div class="img"><img src="{{ item.image | relative_url }}" alt="" /></div>
+								<div class="info">
+									<div class="name">{{ item.name }}</div>
+									<div class="company">{{ item.subname }}</div>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+</div>

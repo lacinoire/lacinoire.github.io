@@ -1,0 +1,144 @@
+---
+layout: default
+---
+
+{% assign ui_text = site.data.ui-text['ui_text'] %}
+
+{% if page.author == nil %}
+	{% assign author = site.author %}
+{% else %}
+	{% assign author = page.author %}
+{% endif %}
+
+<!--
+	Card - Blog
+-->
+<div class="card-inner blog blog-post animated" id="blog-card">
+	<div class="card-wrap">
+
+		<!--
+			Blog Single
+		-->
+		<div class="content blog-single">
+
+			<!-- title -->
+			<div class="title">{{ ui_text.blog_post }}</div>
+
+			<!-- content -->
+			<div class="row border-line-v">
+				<div class="col col-m-12 col-t-12 col-d-12">
+					<div class="post-box">
+						
+						<!-- blog detail -->
+						<h1>{{ page.title }}</h1>
+						<div class="blog-detail">
+							<span class="date">{{ page.date | date: site.date_format }}</span>
+							{% assign cat_size = page.category | size %}
+							{% if cat_size != 0 %}
+							<span class="cat-links">
+								{% for category in page.category %}
+						        <a href="{{ '/categories' | relative_url }}/{{ category | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category }}</a>
+						        {% if page.category.last != category and page.category.last != nil %},{% endif %}
+						        {% endfor %}
+							</span>
+							{% endif %}
+							<span class="byline"> {{ ui_text.by }} <span class="author">{{ author }}</span></span>				
+						</div>
+						
+						{% if page.image %}
+						<!-- blog image -->
+						<div class="blog-image">
+							<img src="{{ page.image | relative_url }}" alt="{{ page.title }}" />
+						</div>  
+						{% endif %}
+						
+						<!-- blog content -->
+						<div class="blog-content">
+							{{ page.content }}
+						</div>
+
+						<div class="post-text-bottom">	
+							<div class="social-share" data-title="{{ page.title }}" data-url="{{ page.url | absolute_url }}">
+								<span>{{ ui_text.share }}:</span>
+								<a class="share-btn share-btn-facebook share-btn-1" title="{{ ui_text.share_on }} Facebook">
+									<i class="ion ion-social-facebook"></i>
+								</a>
+								<a class="share-btn share-btn-twitter share-btn-2" title="{{ ui_text.share_on }} Twitter">
+									<i class="ion ion-social-twitter"></i>
+								</a>
+								<a class="share-btn share-btn-linkedin share-btn-3" title="{{ ui_text.share_on }} Linkedin">
+									<i class="ion ion-social-linkedin"></i>
+								</a>
+								<a class="share-btn share-btn-reddit share-btn-4" title="{{ ui_text.share_on }} Reddit">
+									<i class="ion ion-social-reddit"></i>
+								</a>
+								<a class="share-btn share-btn-pinterest share-btn-5" title="{{ ui_text.share_on }} Pinterest">
+									<i class="ion ion-social-pinterest"></i>
+								</a>
+							</div>
+							{% assign tags_size = page.tags | size %}
+							{% if tags_size != 0 %}
+							<div class="tags-links">
+								<span>{{ ui_text.tags }}:</span>
+								{% for tag in page.tags %}
+								<a href="{{ '/tags' | relative_url }}/{{ tag | downcase | url_escape | strip | replace: ' ', '-' }}" rel="tag">{{- tag -}}</a>
+								{% endfor %}
+							</div>
+							{% endif %}
+						</div>
+
+						{% if page.previous.url or page.next.url %}
+						<div class="post-navigation" role="navigation">
+							{% if page.previous.url %}
+							<div class="nav-previous">
+								<a href="{{ page.previous.url | relative_url }}" rel="prev" title="{{page.previous.title}}"><span class="post-nav-next post-nav-text">{{ ui_text.prev }}</span></a>
+							</div>
+							{% endif %}
+							{% if page.next.url %}
+							<div class="nav-next">
+								<a href="{{ page.next.url | relative_url }}" rel="next" title="{{page.next.title}}"><span class="post-nav-prev post-nav-text">{{ ui_text.next }}</span></a>
+							</div>
+							{% endif %}
+						</div>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+			
+			{% if site.disqus_comments == 'yes' %}
+			<!-- title -->
+			<div class="title">{{ ui_text.comments }}</div>
+			
+			<!-- comments -->
+			<div class="row border-line-v">
+				<div class="col col-m-12 col-t-12 col-d-12">
+					<div class="post-box">
+						<div class="col-md-12">
+						
+					     	<div id="disqus_thread"></div>
+							
+							{% if site.disqus_shortname %}
+							  <script>
+							    var disqus_config = function () {
+							      this.page.url = "{{ page.url | absolute_url }}";  /* Replace PAGE_URL with your page's canonical URL variable */
+							      this.page.identifier = "{{ page.id }}"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+							    };
+							    (function() { /* DON'T EDIT BELOW THIS LINE */
+							      var d = document, s = d.createElement('script');
+							      s.src = 'https://{{ site.disqus_shortname }}.disqus.com/embed.js';
+							      s.setAttribute('data-timestamp', +new Date());
+							      (d.head || d.body).appendChild(s);
+							    })();
+							  </script>
+							<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+							{% endif %}
+					    
+						</div>
+					</div>
+				</div>
+			</div>
+			{% endif %}
+		</div>
+
+	</div>
+</div>

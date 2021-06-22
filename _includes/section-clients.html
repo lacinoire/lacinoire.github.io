@@ -1,0 +1,28 @@
+{% assign content = site.data.content['clients'] %}
+
+<!-- Clients -->
+<div class="content clients">
+	{{ if content.title != '' }}
+	<!-- title -->
+	<div class="title">{{ content.title }}</div>
+	{{ endif }}
+
+	<!-- content -->
+	<div class="row client-items">
+		{% for item in content.items %}
+		<!-- client item -->
+		<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+			<div class="client-item">
+				<div class="image">
+					<a target="_blank" href="{{ item.url }}">
+						<img src="{{ item.image | relative_url }}" alt="" />
+					</a>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+
+		<div class="clear"></div>
+	</div>
+
+</div>

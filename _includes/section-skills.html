@@ -1,0 +1,70 @@
+{% assign content = site.data.content['skills'] %}
+
+<!-- Skills -->
+<div class="content skills">
+
+	{{ if content.title != '' }}
+	<!-- title -->
+	<div class="title">{{ content.title }}</div>
+	{{ endif }}
+
+	<!-- content -->
+	<div class="row">
+		{% for column in content.columns %}
+		<!-- skill item -->
+		<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+			<div class="skills-list{% if column.type %} {{ column.type }}{% endif %}">
+				<div class="skill-title border-line-h">
+					<div class="icon"><i class="ion ion-{{ column.icon }}"></i></div>
+					<div class="name">{{ column.title }}</div>
+				</div>
+				<ul>
+					{% if column.type == 'default' %}
+					{% for item in column.items %}
+					<li class="border-line-h"> 
+						<div class="name">{{ item.label }}</div>
+						<div class="progress">
+							<div class="percentage" style="width:{{ item.value  }}%;"></div>
+						</div>
+					</li>
+					{% endfor %}
+					{% endif %}
+
+					{% if column.type == 'dotted' %}
+					{% for item in column.items %}
+					<li class="border-line-h"> 
+						<div class="name">{{ item.label }}</div>
+						<div class="progress">
+							<div class="percentage" style="width:{{ item.value  }}%;"></div>
+						</div>
+					</li>
+					{% endfor %}
+					{% endif %}
+
+					{% if column.type == 'circles' %}
+					{% for item in column.items %}
+					<li>
+						<div class="name">{{ item.label }}</div>
+						<div class="progress p{{ item.value }}">
+							<span>{{ item.value  }}%</span>
+						</div>
+					</li>
+					{% endfor %}
+					{% endif %}
+
+					{% if column.type == 'list' %}
+					{% for item in column.items %}
+					<li> 
+						<div class="name">{{ item.label }}</div>
+					</li>
+					{% endfor %}
+					{% endif %}
+				</ul>
+			</div>
+		</div>
+		{% endfor %}
+		
+		<div class="clear"></div>
+	</div>
+	
+</div>

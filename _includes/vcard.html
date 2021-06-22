@@ -1,0 +1,52 @@
+{% assign vcard = site.data.vcard['main'] %}
+
+<!-- Card - Started -->
+<div class="card-started" id="home-card">
+
+  <!--
+    Profile
+  -->
+  <div class="profile{% if vcard.photo == '' %} no-photo{% endif %}">
+
+    <!-- profile image -->
+    <div class="slide" style="background-image: url({{ vcard.bgimage | relative_url }});"></div>
+
+    <!-- profile photo -->
+    {% if vcard.photo != '' %}
+    <div class="image">
+      <img src="{{ vcard.photo | relative_url }}" alt="" />
+    </div>
+    {% endif %}
+
+    <!-- profile titles -->
+    <div class="title">{{ vcard.name }}</div>
+    <div class="subtitle subtitle-typed">
+      <div class="typing-title">
+        {% for subtitle in vcard.typed %}
+        <p>{{ subtitle.text }}</p>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- profile socials -->
+    <div class="social">
+      {% for link in vcard.social %}
+      <a target="_blank" href="{{ link.url }}" title="{{ link.title }}"><span class="{{ link.icon }}"></span></a>
+      {% endfor %}
+    </div>
+    
+    <!-- profile buttons -->
+    <div class="lnks">
+      {% for button in vcard.buttons %}
+      <a href="{{ button.url }}" class="lnk">
+        <span class="text">{{ button.title }}</span>
+        {% if button.icon != '' %}
+        <span class="ion ion-{{ button.icon }}"></span>
+        {% endif %}
+      </a>
+      {% endfor %}
+    </div>
+
+  </div>
+
+</div>

@@ -1,0 +1,26 @@
+{% assign content = site.data.content['facts'] %}
+
+<!-- Fun Fact -->
+<div class="content fuct">
+
+	{{ if content.title != '' }}
+	<!-- title -->
+	<div class="title">{{ content.title }}</div>
+	{{ endif }}
+
+	<!-- content -->
+	<div class="row fuct-items">
+		{% for item in content.items %}
+		<!-- fuct item -->
+		<div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+			<div class="fuct-item">
+				<div class="icon"><span class="ion ion-{{ item.icon }}"></span></div>
+				<div class="name">{{ item.name }}</div>
+			</div>
+		</div>
+		{% endfor %}
+
+		<div class="clear"></div>
+	</div>
+
+</div>

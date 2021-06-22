@@ -1,0 +1,22 @@
+{% assign navigation = site.data.navigation['main'] %}
+
+<!-- Header -->
+<header class="header">
+
+	<a href="#" class="menu-btn"><span></span></a>
+	
+	<!-- menu -->
+	<div class="top-menu">
+		<ul>
+			{% for nav in navigation %}
+			<li{% if navigation.first.slug == nav.slug %} class="active"{% endif %}>
+				<a href="{{ site.url }}/#{{ nav.slug }}-card">
+					<span class="icon ion-{{ nav.icon }}"></span>
+					<span class="link">{{ nav.title }}</span>
+				</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+
+</header>

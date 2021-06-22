@@ -1,0 +1,45 @@
+{% assign content = site.data.content['pricing'] %}
+{% assign ui_text = site.data.ui-text['ui_text'] %}
+
+<!-- Price Tables -->
+<div class="content pricing">
+
+	{{ if content.title != '' }}
+	<!-- title -->
+	<div class="title">{{ content.title }}</div>
+	{{ endif }}
+
+	<!-- content -->
+	<div class="row pricing-items">
+		{% for item in content.items %}
+		<!-- pricing item -->
+		<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+			<div class="pricing-item">
+				<div class="icon"><i class="ion ion-{{ item.icon }}"></i></div>
+				<div class="name">{{ item.name }}</div>
+				<div class="amount">
+					<span class="dollar">{{ item.price_pre }}</span>
+					<span class="number">{{ item.price }}</span>
+					<span class="period">{{ item.price_after }}</span>
+				</div>
+				<div class="feature-list">
+					<ul>
+						{% for el in item.list %}
+						<li{% if el.disable == 1 %} class="disable"{% endif %}>{{ el.text }}{% if el.new == 1 %} <strong>{{ ui_text.new }}</strong>{% endif %}</li>
+						{% endfor %}
+					</ul>
+				</div>
+				<div class="lnks">
+					<a href="{{ item.button_url }}" class="lnk">
+						<span class="text">{{ item.button_text }}</span>
+						<i class="ion ion-{{ item.icon }}"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+
+		<div class="clear"></div>
+	</div>
+
+</div>

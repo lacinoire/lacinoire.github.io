@@ -1,0 +1,39 @@
+{% assign content = site.data.content['blog'] %}
+
+<!-- Blog -->
+<div class="content blog">
+
+	{{ if content.title != '' }}
+	<!-- title -->
+	<div class="title">{{ content.title }}</div>
+	{{ endif }}
+
+	<!-- content -->
+	<div class="row border-line-v post-items" data-page="{{ paginator.page }}" data-total="{{ paginator.total_pages }}">
+		{% for post in paginator.posts %}
+		<!-- blog item -->
+		<div class="col col-d-12 col-t-12 col-m-12 border-line-h post-item">
+			<div class="box-item">
+				<div class="image">
+					<a href="{{ post.url }}">
+						{% if post.image != nil %}
+						<img src="{{ post.image | relative_url }}" alt="{{ post.title }}" />
+						{% endif %}
+						<span class="info">
+							<span class="ion ion-document-text"></span>
+						</span>
+						<span class="date"><strong>{{ post.date | date: "%d" }}</strong>{{ post.date | date: "%b" }}</span>
+					</a>
+				</div>
+				<div class="desc">
+					<a href="{{ post.url }}" class="name">{{ post.title }}</a>
+					<div class="category">{{ post.categories | join: ", " }}</div>
+				</div>
+			</div>
+		</div>
+		{% endfor %}
+
+		<div class="clear"></div>
+	</div>
+
+</div>

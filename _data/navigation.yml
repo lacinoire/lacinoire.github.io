@@ -1,0 +1,50 @@
+# Navigation configuration file
+##
+### to add or remove card (or menu item)
+### param "title" - Menu item name
+### param "icon" - Menu item icon class, all icons class you can see here https://ionicons.com/v4/  
+### param "slug" - Menu item url slug
+### param "sections" - list of sections what will be show of each card, all prebuild sections name see in documentations
+
+main:
+  #about card
+  - title: "About"
+    icon: "person"
+    slug: "about"
+    sections:
+        - about
+        - services
+        - pricing
+        - facts
+        - clients
+        - testimonials
+  
+  #resume card
+  - title: "Resume"
+    icon: "android-list"
+    slug: "resume"
+    sections:
+        - resume
+        - skills
+  
+  #works card
+  - title: "works"
+    icon: "paintbrush"
+    slug: "works"
+    sections:
+        - portfolio
+  
+  #blog card
+  - title: "Blog"
+    icon: "chatbox-working"
+    slug: "blog"
+    sections:
+        - blog
+  
+  #contact card
+  - title: "Contact"
+    icon: "at"
+    slug: "contacts"
+    sections:
+        - contacts-info
+        - contacts-form

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+{% assign navigation = site.data.navigation['main'] %}
+
+{% for card in navigation %}
+<!-- Card - {{ card.title }} -->
+<div class="card-inner{% if navigation.first.slug == card.slug %} animated active{% endif %}" id="{{ card.slug }}-card">
+	<div class="card-wrap">
+		{% for section in card.sections %}
+			{% include section-{{ section }}.html %}
+		{% endfor %}
+	</div>
+</div>
+{% endfor %}

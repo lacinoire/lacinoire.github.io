@@ -1,0 +1,57 @@
+{% assign content = site.data.content['resume'] %}
+
+<!-- Resume -->
+<div class="content resume">
+
+	{{ if content.title != '' }}
+	<!-- title -->
+	<div class="title">{{ content.title }}</div>
+	{{ endif }}
+
+	<!-- content -->
+	<div class="row">
+
+		<!-- experience -->
+		<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+			<div class="resume-title border-line-h">
+				<div class="icon"><i class="ion ion-{{ content.experience.icon }}"></i></div>
+				<div class="name">{{ content.experience.title }}</div>
+			</div>
+			<div class="resume-items">
+				{% for item in content.experience.items %}
+				<div class="resume-item{% if item.h_line == 1 %} border-line-h{% endif %}{% if item.active == 1 %} active{% endif %}">
+					<div class="date">{{ item.year }}</div>
+					<div class="name">{{ item.role }}</div>
+					<div class="company">{{ item.company }}</div>
+					<p>
+						{{ item.text }}
+					</p>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+
+		<!-- education -->
+		<div class="col col-d-6 col-t-6 col-m-12 border-line-v">
+			<div class="resume-title border-line-h">
+				<div class="icon"><i class="ion ion-{{ content.education.icon }}"></i></div>
+				<div class="name">{{ content.education.title }}</div>
+			</div>
+			<div class="resume-items">
+				{% for item in content.education.items %}
+				<div class="resume-item{% if item.h_line == 1 %} border-line-h{% endif %}">
+					<div class="date">{{ item.year }}</div>
+					<div class="name">{{ item.institution }}</div>
+					<div class="company">{{ item.city }}</div>
+					<p>
+						{{ item.text }}
+					</p>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="clear"></div>
+	</div>
+
+</div>

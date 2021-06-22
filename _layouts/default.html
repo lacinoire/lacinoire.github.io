@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="{% if page.layout == 'home' %} home{% endif %}{% if page.layout == 'post' %} blog{% endif %}">
+
+    <div class="page new-skin">
+    
+      <!-- preloader -->
+      <div class="preloader">
+        <div class="centrize full-width">
+          <div class="vertical-center">
+            <div class="spinner">
+              <div class="double-bounce1"></div>
+              <div class="double-bounce2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- background -->
+      <div class="background gradient">
+        <ul class="bg-bubbles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+
+      {%- include sidebar.html -%}
+
+      {% assign animation = site.data.settings['settings'].animation %}
+      {% case animation %}
+        {% when "rotate" %}
+          {% assign animation_in = 'rotateInUpLeft' %}
+          {% assign animation_out = 'rotateOutUpLeft' %}
+        {% when "roll" %}
+          {% assign animation_in = 'rollIn' %}
+          {% assign animation_out = 'rollOut' %}
+        {% when "jack" %}
+          {% assign animation_in = 'jackInTheBox' %}
+          {% assign animation_out = 'jackOutTheBox' %}
+        {% when "fade" %}
+          {% assign animation_in = 'fadeIn' %}
+          {% assign animation_out = 'fadeOut' %}
+        {% when "vertical" %}
+          {% assign animation_in = 'fadeInUp' %}
+          {% assign animation_out = 'fadeOutUp' %}
+        {% else %}
+          {% assign animation_in = 'fadeInLeft' %}
+          {% assign animation_out = 'fadeOutLeft' %}
+      {% endcase %}
+
+      <!-- Container -->
+      <div class="container opened" data-animation-in="{{ animation_in }}" data-animation-out="{{ animation_out }}">
+
+        {%- include header.html -%}
+
+        {%- include vcard.html -%}
+
+        {{ content }}
+      </div>
+    </div>
+
+    {%- include scripts.html -%}
+
+  </body>
+
+</html>
