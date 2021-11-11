@@ -37,10 +37,10 @@ disqus_comments: "yes" # yes - show disqus comments, no - hide disqus comments
 disqus_shortname: "ryancv-jekyll-theme" # read more here https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 # formsubmit.io
-formsubmit_email: "beshleyweb@gmail.com" # sign up on https://formsubmit.io/ and confirm your email
+# formsubmit_email: "beshleyweb@gmail.com" # sign up on https://formsubmit.io/ and confirm your email
 
 # google maps
-google_maps_api_key: "AIzaSyDz2w7HUaWudHwd7AWQpCL48Qs050WOn9s" #google maps api key
+google_maps_api_key: "" #google maps api key
 google_maps_lat: "40.773328" #google maps latitude
 google_maps_long: "-73.960088" #google maps longitude
 google_maps_zoom: "14" #google maps zoom

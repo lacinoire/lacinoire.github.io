@@ -9,42 +9,49 @@
 main:
   #about card
   - title: "About"
-    icon: "person"
+    icon: "android-person"
     slug: "about"
     sections:
         - about
         - services
-        - pricing
-        - facts
-        - clients
-        - testimonials
-  
-  #resume card
-  - title: "Resume"
-    icon: "android-list"
-    slug: "resume"
-    sections:
-        - resume
-        - skills
+        # - pricing
+        # - facts
+        # - clients
+        # - testimonials
   
   #works card
-  - title: "works"
-    icon: "paintbrush"
-    slug: "works"
+  - title: "Papers"
+    icon: "android-document"
+    slug: "papers"
     sections:
         - portfolio
+
+#service card
+  - title: "Service"
+    icon: "android-people"
+    slug: "service"
+    sections:
+        - academic-service
+
+  #resume card
+  - title: "Resume"
+    icon: "university"
+    slug: "resume"
+    sections:
+        - skills
+        - resume
   
   #blog card
-  - title: "Blog"
-    icon: "chatbox-working"
-    slug: "blog"
-    sections:
-        - blog
+  # - title: "Blog"
+  #   icon: "chatbox-working"
+  #   slug: "blog"
+  #   sections:
+  #       - blog
   
   #contact card
   - title: "Contact"
-    icon: "at"
-    slug: "contacts"
+    icon: "android-chat"
+    slug: "contact"
     sections:
         - contacts-info
-        - contacts-form
+        # - contacts-form

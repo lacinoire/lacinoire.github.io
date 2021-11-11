@@ -3,209 +3,222 @@
 ### use navigation.yml file to re-order, delete or add section of each card
 ### here you can find all content in all pre-build sections
 
+### icons: https://ionic.io/ionicons/v2
+
 ### About [ about ]
 about:
   title: "About Me"
   text: "
         <p>
-          <strong>Hello! I’m Ryan Adlard.</strong><br> Web designer from USA, California. I have rich experience in web site design and building, also I am good at wordpress. I love to talk with you about our unique.
+          <strong>Hello! I’m Caro 🐳</strong>
+          <br>I'm a PhD Student at the Software Engineering Research Group of TU Delft.
+          My research centers around amplifying tests for and with developers:
+          Embedding the developer's expertise into automatic test generation tools
+          to generate test cases that they can use to improve their test suites 😊
         </p>
         "
-  list:
-    - label: "Age"
-      value: "24"
+  # list:
+  #   - label: "Age"
+  #     value: "24"
 
-    - label: "Residence"
-      value: "USA"
+  #   - label: "Residence"
+  #     value: "USA"
 
-    - label: "Freelance"
-      value: "Available"
+  #   - label: "Freelance"
+  #     value: "Available"
 
-    - label: "Address"
-      value: "California, USA"
+  #   - label: "Address"
+  #     value: "California, USA"
 
 ### Services [ services ]
 services:
-  title: "My Services"
+  title: "My Research Interests"
   items:
     - icon: "code"
-      name: "Web Development"
-      text: "Modern and mobile-ready website that will help you reach all of your marketing."
+      name: "Developer Involvement"
+      text: "How do we use a developer's expertise in automated tools?"
       h_line: 1
 
     - icon: "music-note"
-      name: "Music Writing"
-      text: "Music copying, transcription, arranging and composition services."
+      name: "Automatic Software Quality"
+      text: "How do we improve software with as little developer effort as possible?"
       h_line: 1
 
     - icon: "speakerphone"
-      name: "Advetising"
-      text: "Advertising services include television, radio, print, mail and web."
+      name: "Visualization"
+      text: "How do we effectively use visual communication in software engineering?"
       h_line: 0
 
     - icon: "ios-game-controller-b"
-      name: "Game Development"
-      text: "Developing memorable and unique mobile android, ios games."
+      name: "Research Methods"
+      text: "How do we help SE researchers do rigorous, reproducible and impactful research?"
       h_line: 0
 
 ### Pricing [ pricing ]
-pricing:
-  title: "Pricing"
-  items:
-    - icon: "speedometer speed-basic"
-      name: "Basic"
-      price_pre: "$"
-      price: "22"
-      price_after: "hour"
-      list:
-        - text: "Web Development"
-          disable: 0
-          new: 0
+# pricing:
+#   title: "Pricing"
+#   items:
+#     - icon: "speedometer speed-basic"
+#       name: "Basic"
+#       price_pre: "$"
+#       price: "22"
+#       price_after: "hour"
+#       list:
+#         - text: "Web Development"
+#           disable: 0
+#           new: 0
 
-        - text: "Advetising"
-          disable: 0
-          new: 0
+#         - text: "Advetising"
+#           disable: 0
+#           new: 0
 
-        - text: "Game Development"
-          disable: 0
-          new: 0
+#         - text: "Game Development"
+#           disable: 0
+#           new: 0
 
-        - text: "Music Writing"
-          disable: 1
-          new: 0
+#         - text: "Music Writing"
+#           disable: 1
+#           new: 0
 
-        - text: "Photography"
-          disable: 1
-          new: 1
-      button_link: "#"
-      button_text: "Buy Basic"
+#         - text: "Photography"
+#           disable: 1
+#           new: 1
+#       button_link: "#"
+#       button_text: "Buy Basic"
 
-    - icon: "speedometer"
-      name: "Pro"
-      price_pre: "$"
-      price: "48"
-      price_after: "hour"
-      list:
-        - text: "Web Development"
-          disable: 0
-          new: 0
+#     - icon: "speedometer"
+#       name: "Pro"
+#       price_pre: "$"
+#       price: "48"
+#       price_after: "hour"
+#       list:
+#         - text: "Web Development"
+#           disable: 0
+#           new: 0
 
-        - text: "Advetising"
-          disable: 0
-          new: 0
+#         - text: "Advetising"
+#           disable: 0
+#           new: 0
 
-        - text: "Game Development"
-          disable: 0
-          new: 0
+#         - text: "Game Development"
+#           disable: 0
+#           new: 0
 
-        - text: "Music Writing"
-          disable: 0
-          new: 0
+#         - text: "Music Writing"
+#           disable: 0
+#           new: 0
 
-        - text: "Photography"
-          disable: 0
-          new: 1
-      button_link: "#"
-      button_text: "Buy Pro"
+#         - text: "Photography"
+#           disable: 0
+#           new: 1
+#       button_link: "#"
+#       button_text: "Buy Pro"
 
 ### Facts [ facts ]
-facts:
-  title: "Fun Fact"
-  items:
-    - icon: "disc"
-      name: "80 Albumes Listened"
+# facts:
+#   title: "Fun Fact"
+#   items:
+#     - icon: "disc"
+#       name: "80 Albumes Listened"
 
-    - icon: "trophy"
-      name: "15 Awards Won"
+#     - icon: "trophy"
+#       name: "15 Awards Won"
 
-    - icon: "coffee"
-      name: "1 000 Cups of coffee"
+#     - icon: "coffee"
+#       name: "1 000 Cups of coffee"
 
-    - icon: "flag"
-      name: "10 Countries Visited"
+#     - icon: "flag"
+#       name: "10 Countries Visited"
 
 ### Clients [ clients ]
-clients:
-  title: "Clients"
-  items:
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client_1.png"
+# clients:
+#   title: "Clients"
+#   items:
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client_1.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client_2.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client_2.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client_3.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client_3.png"
 
-    - url: "https://www.google.com"
-      image: "assets/img/clients/client_4.png"
+#     - url: "https://www.google.com"
+#       image: "assets/img/clients/client_4.png"
 
 ### Testimonials [ testimonials ]
-testimonials:
-  title: "Testimonials"
-  items:
-    - image: "assets/img/man1.jpg"
-      name: "Helen Floyd"
-      subname: "Art Director"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+# testimonials:
+#   title: "Testimonials"
+#   items:
+#     - image: "assets/img/man1.jpg"
+#       name: "Helen Floyd"
+#       subname: "Art Director"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
-    - image: "assets/img/man1.jpg"
-      name: "Robert Chase"
-      subname: "CEO"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+#     - image: "assets/img/man1.jpg"
+#       name: "Robert Chase"
+#       subname: "CEO"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
-    - image: "assets/img/man1.jpg"
-      name: "Helen Floyd"
-      subname: "Art Director"
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+#     - image: "assets/img/man1.jpg"
+#       name: "Helen Floyd"
+#       subname: "Art Director"
+#       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 
-### Resume [ resume ]
-resume:
-  title: "Resume"
+### Service [ resume ]
+academic-service:
+  title: "Service"
   experience:
-    title: "Experience"
-    icon: "briefcase"
-    items:
-      - year: "2013 - Present"
-        role: "Art Director"
-        company: "Facebook Inc."
-        text: "Collaborate with creative and development teams on the execution of ideas."
-        active: 1
-        h_line: 1
-
-      - year: "2011 - 2012"
-        role: "Front-end Developer"
-        company: "Google Inc."
-        text: "Monitored technical aspects of the front-end delivery for several projects."
-        active: 0
-        h_line: 1
-
-      - year: "2009 - 2010"
-        role: "Senior Developer"
-        company: "Abc Inc."
-        text: "Optimize website performance using latest technology."
-        active: 0
-        h_line: 0
-  education:
-    title: "Education"
+    title: "Academic"
     icon: "university"
     items:
-      - year: "2006 - 2008"
-        institution: "Art University"
-        city: "New York"
-        text: "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri"
+      - year: "2021"
+        institution: "Journal of Software: Evolution and Process"
+        text: "Reviewer"
         h_line: 1
 
-      - year: "2005 - 2006"
-        institution: "Programming Course"
-        city: "Paris"
-        text: "Coursework - Git, WordPress, Javascript, iOS, Android."
+      - year: "2021"
+        institution: "VISSOFT"
+        text: "Program Committee"
         h_line: 1
 
-      - year: "2004 - 2005"
-        institution: "Web Design Course"
-        city: "London"
-        text: "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript"
+      - year: "2021"
+        institution: "ISSTA"
+        text: "Artifact Evaluation Committee"
+        h_line: 0
+
+  education:
+    title: "Organization"
+    icon: "clipboard"
+    items:
+      - year: "2022"
+        institution: "ECOOP"
+        text: "Publicity Chair"
+        h_line: 1
+
+      - year: "2021"
+        institution: "VISSOFT"
+        text: "Publicity Chair"
+        h_line: 1
+
+      - year: "2021"
+        institution: "ICSE"
+        text: "Organization Committee, responsible for Watch Parties and Gather.Town"
+        h_line: 1
+        
+      - year: "2020"
+        institution: "ICSE"
+        text: "Student Volunteer, responsible for Streaming in the Europe Timeband"
+        h_line: 1
+
+      - year: "2020"
+        institution: "ESEC/FSE"
+        text: "Student Volunteer"
+        h_line: 1
+
+      - year: "2020"
+        institution: "ASE"
+        text: "Student Volunteer"
         h_line: 0
 
 ### Skills [ skills ]
@@ -213,80 +226,137 @@ skills:
   title: "My Skills"
   columns:
     - type: "default" #skills progress type - default, dotted, circles, list
-      title: "Design"
+      title: "Research Methods"
       icon: "easel"
       items:
-        - label: "Web Design"
+        - label: "Interviews"
           value: "90" #0-100 progress in %
 
-        - label: "Write Music"
+        - label: "Open / Axial Coding"
           value: "65" #0-100 progress in %
 
-        - label: "Photoshop"
+        - label: "Academic Writing"
+          value: "85" #0-100 progress in %
+
+        - label: "Research Design"
           value: "75" #0-100 progress in %
 
-        - label: "Graphic Design"
-          value: "85" #0-100 progress in %
+        - label: "Constructive Paper Review"
+          value: "95" #0-100 progress in %
 
     - type: "dotted" #skills progress type - default, dotted, circles, list
       title: "Languages"
       icon: "flag"
       items:
-        - label: "English"
-          value: "90" #0-100 progress in %
-
         - label: "German"
-          value: "60" #0-100 progress in %
+          value: "100" #0-100 progress in %
 
-        - label: "Italian"
+        - label: "English"
+          value: "100" #0-100 progress in %
+
+        - label: "Dutch"
+          value: "70" #0-100 progress in %
+
+        - label: "Japanese, French"
           value: "30" #0-100 progress in %
 
-        - label: "French"
-          value: "70" #0-100 progress in %
+        - label: "Polish, Farsi (Persian)"
+          value: "10" #0-100 progress in %
 
     - type: "circles" #skills progress type - default, dotted, circles, list
       title: "Coding"
       icon: "code"
       items:
-        - label: "WordPress"
+        - label: "Java"
           value: "90" #0-100 progress in %
 
-        - label: "PHP / MYSQL"
+        - label: "C#, Python, Ruby"
           value: "75" #0-100 progress in %
 
-        - label: "Angular / JavaScript"
-          value: "85" #0-100 progress in %
+        - label: "The language fitting for the job"
+          value: "65" #0-100 progress in %
 
-        - label: "HTML / CSS"
-          value: "95" #0-100 progress in %
+        - label: "LaTeX"
+          value: "85" #0-100 progress in %
 
     - type: "list" #skills progress type - default, dotted, circles, list
       title: "Knowledge"
       icon: "android-list"
       items:
-        - label: "Website hosting"
-          value: "" #0-100 progress in %
+        # - label: "Website hosting"
+        #   value: "" #0-100 progress in %
 
-        - label: "iOS and android apps"
-          value: "" #0-100 progress in %
+        # - label: "iOS and android apps"
+        #   value: "" #0-100 progress in %
 
-        - label: "Create logo design"
-          value: "" #0-100 progress in %
+        # - label: "Create logo design"
+        #   value: "" #0-100 progress in %
 
-        - label: "Design for print"
-          value: "" #0-100 progress in %
+        # - label: "Design for print"
+        #   value: "" #0-100 progress in %
 
-        - label: "Modern and mobile-ready"
-          value: "" #0-100 progress in %
+        # - label: "Modern and mobile-ready"
+        #   value: "" #0-100 progress in %
 
-        - label: "Advertising services include"
-          value: "" #0-100 progress in %
+        # - label: "Advertising services include"
+        #   value: "" #0-100 progress in %
 
-        - label: "Graphics and animations"
-          value: "" #0-100 progress in %
+        # - label: "Graphics and animations"
+        #   value: "" #0-100 progress in %
 
-        - label: "Search engine marketing"
-          value: "" #0-100 progress in %
+        # - label: "Search engine marketing"
+        #   value: "" #0-100 progress in %
+
+### Resume [ resume ]
+resume:
+  title: "Education + Experience"
+  academic:
+    title: "Academic"
+    icon: "university"
+    items:
+
+      # - year: "2011 - 2012"
+      #   role: "Front-end Developer"
+      #   company: "Google Inc."
+      #   text: "Monitored technical aspects of the front-end delivery for several projects."
+      #   active: 0
+      #   h_line: 1
+
+      # - year: "2009 - 2010"
+      #   role: "Senior Developer"
+      #   company: "Abc Inc."
+      #   text: "Optimize website performance using latest technology."
+      #   active: 0
+      #   h_line: 0
+  industry:
+    title: "Industry"
+    icon: "briefcase"
+    items:
+
+      - year: "2018"
+        role: "Research Industry Internship"
+        company: "Oracle Labs, Multilingual Engine Team"
+        text: "Transformed pandas data analysis operations to SQL. Benchmarked against python running within the database process using GraalVM."
+        active: 1
+        h_line: 1
+
+      # - year: "2006 - 2008"
+      #   institution: "Art University"
+      #   city: "New York"
+      #   text: "Bachelor's Degree in Computer Science ABC Technical Institute, Jefferson, Missouri"
+      #   h_line: 1
+
+      # - year: "2005 - 2006"
+      #   institution: "Programming Course"
+      #   city: "Paris"
+      #   text: "Coursework - Git, WordPress, Javascript, iOS, Android."
+      #   h_line: 1
+
+      # - year: "2004 - 2005"
+      #   institution: "Web Design Course"
+      #   city: "London"
+      #   text: "Converted Photoshop layouts to web pages using HTML, CSS, and JavaScript"
+      #   h_line: 0
 
 ### Portfolio [ portfolio ]
 portfolio:
@@ -296,20 +366,20 @@ portfolio:
       slug: "grid-item"
       active: 1
 
-    - name: "Photo"
-      slug: "photo"
+    - name: "Conference"
+      slug: "conference"
       active: 0
 
-    - name: "Video"
-      slug: "video"
+    - name: "Journal"
+      slug: "journal"
       active: 0
 
-    - name: "Music"
-      slug: "music"
+    - name: "Poster"
+      slug: "poster"
       active: 0
 
-    - name: "Design"
-      slug: "design"
+    - name: "Students"
+      slug: "students"
       active: 0
 
 ### Blog [ blog ]
@@ -320,18 +390,20 @@ blog:
 contacts_info:
   title: "Get in Touch"
   list:
-    - label: "Address"
-      value: "California, USA"
-
     - label: "Email"
-      value: "adlard@example.com"
+      value: "c.e.brandt@tudelft.nl"
 
-    - label: "Phone"
-      value: "+123 654 78900"
+    - label: "Twitter-DM"
+      value: "@laci_noire"
 
-    - label: "Freelance"
-      value: "Available"
+    - label: "Office"
+      value: "W 4.780, Building 28"
+
+    - label: "City"
+      value: "Van Mourik Broekmanweg 6<br>2628 XE Delft, The Netherlands"
+
+
 
 ### Contact Form [ contacts-form ]
-contacts_form:
-  title: "Contact Form"
+# contacts_form:
+#   title: "Contact Form"

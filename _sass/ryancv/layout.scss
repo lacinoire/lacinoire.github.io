@@ -1092,7 +1092,7 @@
 .resume-items {
 	.resume-item {
 		position: relative;
-		padding: 20px 0 20px 0;
+		padding: 10px 0;
 		&:after {
 			left: -20px;
 		}
@@ -3509,9 +3509,6 @@
 }
 
 /* Resume */
-.resume-items .resume-item {
-	padding: 30px 0;
-}
 
 .resume-items .resume-item:after {
 	left: 0;

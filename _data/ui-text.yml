@@ -16,7 +16,7 @@ ui_text:
   email_address:  "Email Address"
   your_message:   "Your Message"
   send_message:   "Send Message"
-  view_project:   "View Project"
+  view_project:   "Full Publication"
   new:            "new"
   search:         "Search ..."
   recent_posts:   "Recent Posts"

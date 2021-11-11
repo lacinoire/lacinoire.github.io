@@ -15,7 +15,6 @@ main:
     - text: "PhD Student"
     - text: "Researcher"
     - text: "Software Developer"
-    - text: "Supervisor"
   social:
     - title: "Twitter"
       icon: "fab fa-twitter"
@@ -24,7 +23,7 @@ main:
       icon: "fab fa-github"
       url: "https://github.com/lacinoire"
     - title: "Blog"
-      icon: "fab fa-pen-alt"
+      icon: "fas fa-pencil-alt"
       url: "https://blog.carolin-brandt.de"
     # - title: "Spotify"
     #   icon: "fab fa-spotify"
@@ -42,3 +41,6 @@ main:
     - title: "Write me!"
       icon: ""
       url: "mailto:c.e.brandt@tudelft.nl"
+    - title: "Google Scholar"
+      icon: ""
+      url: "https://scholar.google.com/citations?hl=de&user=gYM4MwkAAAAJ"

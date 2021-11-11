@@ -10,9 +10,14 @@
 	1. Template Dark
 */
 
+:root {
+  --text-highlight: rgba(255, 255, 255, 0.85);
+  --text: rgba(255, 255, 255, 0.55);
+}
+
 /* 1. Template Dark */
 body {
-	color: rgba(255, 255, 255, 0.55);
+	color: rgba(255, 255, 255, 0.75);
 	background: #26262d;
 }
 
@@ -42,7 +47,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .lnks:before {
@@ -53,7 +58,7 @@ h6 {
 
 .lnk,
 .button {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .lnk:before,
@@ -67,64 +72,64 @@ h6 {
 .button .arrow:before,
 .lnk .arrow:after,
 .button .arrow:after {
-	background: rgba(255, 255, 255, 0.85);
+	background: var(--text-highlight);
 }
 
 a {
-	color: rgba(255, 255, 255, 0.55);
+	color: var(--text);
 }
 
 th {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 td {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 input,
 textarea,
 button {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 input:focus,
 textarea:focus,
 button:focus {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 button {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 input:focus::-webkit-input-placeholder,
 textarea:focus::-webkit-input-placeholder {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 input:focus:-moz-placeholder,
 textarea:focus:-moz-placeholder {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 input:focus::-moz-placeholder,
 textarea:focus::-moz-placeholder {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 input:focus:-ms-input-placeholder,
 textarea:focus:-ms-input-placeholder {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .header .top-menu ul li a, .header .menu-btn {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 	background: #31313a;
 }
 
 .header .menu-btn span, .header .menu-btn span:before, .header .menu-btn span:after {
-	background: rgba(255, 255, 255, 0.85);
+	background: var(--text-highlight);
 }
 
 .header .top-menu ul li a:before {
@@ -134,7 +139,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .header .top-menu ul li a .icon {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 @media (max-width: 1240px) {
@@ -175,13 +180,13 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .card-started .profile .title {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .card-started .profile .social a .ion,
 .card-started .profile .social a .fab,
 .card-started .profile .social a .fas {
-	color: rgba(255, 255, 255, 0.55);
+	color: var(--text);
 }
 
 .card-inner {
@@ -194,7 +199,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .content .title {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .content .title:after {
@@ -204,7 +209,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .info-list ul li strong {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .service-items.border-line-v:after {
@@ -214,7 +219,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .service-items .service-item .name {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 @media (max-width: 560px) {
@@ -227,32 +232,32 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .pricing-items .pricing-item .name {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .pricing-items .pricing-item .amount .number {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .pricing-items .pricing-item .amount .dollar,
 .pricing-items .pricing-item .amount .period {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .pricing-items .pricing-item .amount .period {
-	color: rgba(255, 255, 255, 0.55);
+	color: var(--text);
 }
 
 .pricing-items .pricing-item .feature-list ul li {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .pricing-items .pricing-item .feature-list ul li strong {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .fuct-items .fuct-item .name {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .resume-title .icon,
@@ -262,15 +267,15 @@ textarea:focus:-ms-input-placeholder {
 
 .resume-title .name,
 .skill-title .name {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .resume-items .resume-item .name {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .skills-list ul li .name {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .skills-list ul li .progress {
@@ -286,7 +291,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .skills-list.circles .progress span {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .skills-list.circles .progress:after {
@@ -294,7 +299,7 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .content.works .filter-menu .f_btn {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .content.works .grid-items.border-line-v:after {
@@ -304,11 +309,11 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .box-item .desc .name {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .mfp-wrap.popup-box-inline .mfp-close {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .mfp-wrap.popup-box-inline {
@@ -316,16 +321,16 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .post-box .blog-detail {
-	color: rgba(255, 255, 255, 0.55);
+	color: var(--text);
 }
 
 .post-box .blog-content blockquote {
-	color: rgba(255, 255, 255, 0.55);
+	color: var(--text);
 	border-left: none;
 }
 
 .post-box .blog-content ul.list-style li {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .post-box .post-comments li:before {
@@ -335,15 +340,15 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .post-box .post-comments li .comment-info .name {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .post-box .post-comments li .comment-info .name a {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .post-box .post-comments li .comment-info .name h6 span {
-	color: rgba(255, 255, 255, 0.55);
+	color: var(--text);
 }
 
 .background.gradient {
@@ -357,11 +362,11 @@ textarea:focus:-ms-input-placeholder {
 }
 
 .content .title .first-word {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .content .title:first-letter {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .info-list ul li strong:after {
@@ -407,27 +412,27 @@ input, textarea, button, input[type="submit"] {
 }
 
 .content-sidebar .widget ul li a {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .content-sidebar h2.widget-title {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .content-sidebar h2.widget-title .first-word {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .content-sidebar h2.widget-title:first-letter {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .post-comments .title .title_inner:first-letter {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .content .post-comments .title .first-word {
-	color: rgba(255, 255, 255, 0.85);
+	color: var(--text-highlight);
 }
 
 .search-form input.search-field {
