@@ -3531,10 +3531,10 @@
 	padding: 0 5px;
 	font-size: 13px;
 	line-height: 18px;
-	color: #ccc;
+	color: $extra-color;
 	font-weight: 400;
 	text-transform: none;
-	border: 1px solid #eeeeee;
+	border: 1px solid $extra-color;
 }
 
 .resume-items .resume-item .date:before {

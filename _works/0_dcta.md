@@ -1,6 +1,6 @@
 ---
 title: Developer-Centric Test Amplification The Interplay Between Automatic Generation and Human Exploration
-category: Journal
+category: Pre-print
 category_slug: journal
 type: content # video, music, photo
 image: assets/img/works/dcta.png

@@ -11,10 +11,11 @@ about:
   text: "
         <p>
           <strong>Hello! I’m Caro 🐳</strong>
-          <br>I'm a PhD Student at the Software Engineering Research Group of TU Delft.
+          <br>I'm a PhD Student at the <a href=\"https://se.ewi.tudelft.nl/\">Software Engineering Research Group</a> of <a href=\"https://www.tudelft.nl/\">TU Delft</a>.
           My research centers around amplifying tests for and with developers:
           Embedding the developer's expertise into automatic test generation tools
           to generate test cases that they can use to improve their test suites 😊
+          <br>My PhD advisor is <a href=\"https://azaidman.github.io/\">Andy Zaidman</a> and I'm part of the <a href=\"https://testshiftproject.github.io/\">TestShift</a> project.
         </p>
         "
   # list:
@@ -279,10 +280,10 @@ skills:
         - label: "LaTeX"
           value: "85" #0-100 progress in %
 
-    - type: "list" #skills progress type - default, dotted, circles, list
-      title: "Knowledge"
-      icon: "android-list"
-      items:
+    # - type: "list" #skills progress type - default, dotted, circles, list
+    #   title: "Knowledge"
+    #   icon: "android-list"
+    #   items:
         # - label: "Website hosting"
         #   value: "" #0-100 progress in %
 
@@ -315,6 +316,19 @@ resume:
     icon: "university"
     items:
 
+      - year: "2020 - Current"
+        role: "PhD Student"
+        company: "Software Engineering Research Group, Delft University of Technology"
+        text: "Generating tests for and with developers using test amplification and visualization. Part of the TestShift project, supervised by Andy Zaidman."
+        active: 1
+        h_line: 1
+
+      - year: "2017 - 2019"
+        role: "Elite Graduate Program Software Engineering"
+        company: "University of Augsburg, Technical University of Munich, Ludwigs-Maximilans-University Munich"
+        text: "For especially talented and motivated students. Advanced education in software engineering, formal methods, database systems, distributed systems and human-computer interaction. Highly selective admission: at most 20 students per year."
+        h_line: 1
+
       # - year: "2011 - 2012"
       #   role: "Front-end Developer"
       #   company: "Google Inc."
@@ -328,6 +342,19 @@ resume:
       #   text: "Optimize website performance using latest technology."
       #   active: 0
       #   h_line: 0
+
+      - year: "2016"
+        role: "Teaching Assistant"
+        company: "Technical University of Munich"
+        text: "Introduction to Software Engineering. Operating Systems and Embedded Programming."
+        h_line: 1
+
+      - year: "2014 - 2017"
+        role: "Bachelor Computer Science: Games Engineering"
+        company: "Technical University of Munich"
+        text: "Computer science with a practical focus in games. Computer graphics, game physics, artificial intelligence, social games, human-computer interaction and usability."
+        h_line: 1
+
   industry:
     title: "Industry"
     icon: "briefcase"
@@ -337,8 +364,14 @@ resume:
         role: "Research Industry Internship"
         company: "Oracle Labs, Multilingual Engine Team"
         text: "Transformed pandas data analysis operations to SQL. Benchmarked against python running within the database process using GraalVM."
-        active: 1
         h_line: 1
+
+      - year: "2017 - 2018"
+        role: "Software Engineer"
+        company: "Qualicen GmbH"
+        text: "Extended ConQAT based analyses of requirements documents. Halved the code size by safely deleting no longer used research components. Developed automated UI test using Ranorex. Managed GitLab and development workflow."
+        h_line: 1
+
 
       # - year: "2006 - 2008"
       #   institution: "Art University"
@@ -360,7 +393,7 @@ resume:
 
 ### Portfolio [ portfolio ]
 portfolio:
-  title: "Recent Works"
+  title: "Recent Publications"
   filters:
     - name: "All"
       slug: "grid-item"
@@ -374,12 +407,12 @@ portfolio:
       slug: "journal"
       active: 0
 
-    - name: "Poster"
-      slug: "poster"
-      active: 0
+    # - name: "Poster"
+    #   slug: "poster"
+    #   active: 0
 
-    - name: "Students"
-      slug: "students"
+    - name: "Thesis"
+      slug: "thesis"
       active: 0
 
 ### Blog [ blog ]
@@ -399,7 +432,7 @@ contacts_info:
     - label: "Office"
       value: "W 4.780, Building 28"
 
-    - label: "City"
+    - label: "Address"
       value: "Van Mourik Broekmanweg 6<br>2628 XE Delft, The Netherlands"
 
 
