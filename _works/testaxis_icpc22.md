@@ -7,7 +7,6 @@ image: assets/img/works/testaxis_cut.png
 button_url: publications/TestAxis_icpc22.pdf
 ---
 
-# Fixing Continuous Integration Tests From Within the IDE With Contextual Information
 Casper Boone · Carolin Brandt · Andy Zaidman
 
 This paper discusses a plugin that brings information from the CI to the developer's IDE to help them fix failing tests faster.

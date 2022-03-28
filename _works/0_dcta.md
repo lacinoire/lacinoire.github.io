@@ -7,7 +7,6 @@ image: assets/img/works/dcta.png
 button_url: publications/DCTA_paper.pdf
 ---
 
-# Developer-Centric Test Amplification
 ## The Interplay Between Automatic Generation and Human Exploration
 
 Carolin Brandt · Andy Zaidman
