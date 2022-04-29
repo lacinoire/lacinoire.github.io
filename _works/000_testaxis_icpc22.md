@@ -1,6 +1,6 @@
 ---
 title: Fixing Continuous Integration Tests From Within the IDE With Contextual Information
-category: Pre-print
+category: Conference
 category_slug: conference
 type: content # video, music, photo
 image: assets/img/works/testaxis_cut.png

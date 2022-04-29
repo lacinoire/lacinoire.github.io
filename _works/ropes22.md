@@ -1,6 +1,6 @@
 ---
 title: Strategies and Challenges in Recruiting Interview Participants for a Qualitative Evaluation
-category: Pre-print
+category: Workshop
 category_slug: conference
 type: content # video, music, photo
 # image: publications/ropes_2022.pdf
