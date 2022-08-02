@@ -1,7 +1,7 @@
 ---
 title: Developer-Centric Test Amplification The Interplay Between Automatic Generation and Human Exploration
 category: Empirical Software Engineering
-category_slug: journal
+category_slug: peer-reviewed
 type: content # video, music, photo
 image: assets/img/works/dcta.png
 button_url: publications/DCTA_paper.pdf

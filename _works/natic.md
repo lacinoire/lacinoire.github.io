@@ -1,7 +1,7 @@
 ---
 title: Naming Amplified Tests Based on Improved Coverage
 category: SCAM'21
-category_slug: conference
+category_slug: peer-reviewed
 type: content # video, music, photo
 image: assets/img/works/natic.png
 button_url: publications/NATIC_paper.pdf

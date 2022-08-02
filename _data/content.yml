@@ -399,20 +399,20 @@ portfolio:
       slug: "grid-item"
       active: 1
 
-    - name: "Conference"
-      slug: "conference"
+    - name: "Peer-reviewed"
+      slug: "peer-reviewed"
       active: 0
 
-    - name: "Journal"
-      slug: "journal"
+    - name: "Presentations"
+      slug: "presentations"
       active: 0
 
     # - name: "Poster"
     #   slug: "poster"
     #   active: 0
 
-    - name: "Thesis"
-      slug: "thesis"
+    - name: "More"
+      slug: "more"
       active: 0
 
 ### Blog [ blog ]

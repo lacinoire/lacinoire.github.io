@@ -1,7 +1,7 @@
 ---
 title: "A Description Language for Structural Smells"
 category: Bachelor Thesis
-category_slug: thesis
+category_slug: more
 type: content # video, music, photo
 image: assets/img/works/bt.png
 button_url: publications/bachelor_thesis.pdf

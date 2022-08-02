@@ -1,7 +1,7 @@
 ---
 title: Removing Redundant Statements in Amplified Test Cases
 category: SCAM'21
-category_slug: conference
+category_slug: peer-reviewed
 type: content # video, music, photo
 image: assets/img/works/rrs.jpeg
 button_url: publications/RS_paper.pdf

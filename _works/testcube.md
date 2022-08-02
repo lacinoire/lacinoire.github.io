@@ -1,7 +1,7 @@
 ---
 title: "IntelliJ Plugin: Test Cube"
 category: Tool
-category_slug: tool
+category_slug: more
 type: content # video, music, photo
 image: assets/img/works/test-cube-logo.png
 button_url: https://github.com/TestShiftProject/test-cube
