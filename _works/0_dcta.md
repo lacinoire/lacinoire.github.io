@@ -1,16 +1,18 @@
 ---
 title: Developer-Centric Test Amplification The Interplay Between Automatic Generation and Human Exploration
-category: Journal
+category: Empirical Software Engineering
 category_slug: journal
 type: content # video, music, photo
 image: assets/img/works/dcta.png
 button_url: publications/DCTA_paper.pdf
 ---
 
-## The Interplay Between Automatic Generation and Human Exploration
-
 Carolin Brandt · Andy Zaidman
 
+This paper explores which factors make developer-centric test amplification---where generated test cases are taken over into the maintained test suite---  
+a useful tool for developers.  
+Short answer: consider and design the interaction of developer & test amplification tool.  
+Details: have a look at the paper for those 😉!
 
 ### Abstract
 

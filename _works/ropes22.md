@@ -1,9 +1,9 @@
 ---
 title: Strategies and Challenges in Recruiting Interview Participants for a Qualitative Evaluation
-category: Workshop
+category: RoPES'22
 category_slug: conference
 type: content # video, music, photo
-# image: publications/ropes_2022.pdf
+image: assets/img/works/ropes22.png
 button_url: publications/ropes_2022.pdf
 ---
 
