@@ -6,6 +6,8 @@ bundle exec jekyll serve --livereload
 
 Template used:
 https://themeforest.net/item/ryancv-resume-cv-vcard-jekyll-theme/28114925
+demo (to see possible components):
+https://ryancv-jekyll.netlify.app/
 
 
 ## How To:

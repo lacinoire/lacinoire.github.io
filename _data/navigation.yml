@@ -13,6 +13,7 @@ main:
     slug: "about"
     sections:
         - about
+        - news
         - services
         # - pricing
         # - facts

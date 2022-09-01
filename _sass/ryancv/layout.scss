@@ -1695,6 +1695,10 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.skills-list.list ul li .name-news:before {
+	content: "\f125";
+}
+
 .skills-list.dotted ul li .progress {
 	background: transparent!important;
 }
