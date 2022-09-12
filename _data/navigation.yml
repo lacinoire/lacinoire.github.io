@@ -39,8 +39,8 @@ main:
     icon: "university"
     slug: "resume"
     sections:
-        - skills
         - resume
+        - skills
   
   #blog card
   # - title: "Blog"

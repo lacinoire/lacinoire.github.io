@@ -13,7 +13,7 @@ about:
           <strong>Hello! I’m Caro 🐳</strong>
           <br>I'm a PhD Student at the <a href=\"https://se.ewi.tudelft.nl/\">Software Engineering Research Group</a> of <a href=\"https://www.tudelft.nl/\">TU Delft</a>.
           My research centers around amplifying tests for and with developers:
-          Embedding the developer's expertise into automatic test generation tools
+          Letting automatic test amplification tools collaborate with developers
           to generate test cases that they can use to improve their test suites 😊
           <br>My PhD advisor is <a href=\"https://azaidman.github.io/\">Andy Zaidman</a> and I'm part of the <a href=\"https://testshiftproject.github.io/\">TestShift</a> project.
         </p>
@@ -184,7 +184,17 @@ academic-service:
     icon: "university"
     items:
       - year: "2022"
-        institution: "Journal of Software: Evolution and Process"
+        institution: "BENEVOL"
+        text: "Program Committee"
+        h_line: 1
+
+      - year: "2022"
+        institution: "IEEE Transactions on Software Engineering"
+        text: "Reviewer"
+        h_line: 1
+
+      - year: "2022"
+        institution: "Journal of Systems and Software"
         text: "Reviewer"
         h_line: 1
 
@@ -207,6 +217,11 @@ academic-service:
     title: "Organization"
     icon: "clipboard"
     items:
+      - year: "2022"
+        institution: "Alice & Eve"
+        text: "Web Chair"
+        h_line: 1
+
       - year: "2022"
         institution: "ECOOP"
         text: "Publicity Chair"
@@ -445,7 +460,7 @@ contacts_info:
       value: "@laci_noire"
 
     - label: "Office"
-      value: "W 4.780, Building 28"
+      value: "W 1.920, Building 28"
 
     - label: "Address"
       value: "Van Mourik Broekmanweg 6<br>2628 XE Delft, The Netherlands"
