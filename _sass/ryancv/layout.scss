@@ -808,6 +808,10 @@
 
 /* 4.1 About */
 .content.about {
+	margin: 0 0 0 0;
+}
+.content.news {
+	margin: 0 0 0 0;
 }
 
 .info-list {
@@ -3601,9 +3605,9 @@
 }
 
 .content.works .grid-items .grid-item.col {
-	padding-top: 0;
+	padding-top: 30px;
 	padding-bottom: 0;
-	margin-top: 30px;
+	margin-top: 0px;
 }
 
 @media (max-width: 560px) {

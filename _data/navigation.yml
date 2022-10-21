@@ -48,7 +48,7 @@ main:
   #   slug: "blog"
   #   sections:
   #       - blog
-  
+
   #contact card
   - title: "Contact"
     icon: "android-chat"

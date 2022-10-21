@@ -186,6 +186,11 @@ academic-service:
     icon: "university"
     items:
       - year: "2022"
+        institution: "FUZZING"
+        text: "Artifact Evaluation Committee"
+        h_line: 0
+
+      - year: "2022"
         institution: "BENEVOL"
         text: "Program Committee"
         h_line: 1
@@ -198,6 +203,11 @@ academic-service:
       - year: "2022"
         institution: "Journal of Systems and Software"
         text: "Reviewer"
+        h_line: 1
+
+      - year: "2022"
+        institution: "TestVis"
+        text: "Program Committee"
         h_line: 1
 
       - year: "2021"
@@ -288,13 +298,10 @@ skills:
           value: "100" #0-100 progress in %
 
         - label: "Dutch"
-          value: "70" #0-100 progress in %
+          value: "90" #0-100 progress in %
 
         - label: "Japanese, French"
           value: "30" #0-100 progress in %
-
-        - label: "Polish, Farsi (Persian)"
-          value: "10" #0-100 progress in %
 
     - type: "circles" #skills progress type - default, dotted, circles, list
       title: "Coding"
