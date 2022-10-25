@@ -13,9 +13,9 @@ In this paper we took a look at how we should build visualizations that let deve
 
 The paper was accepted at VISSOFT'22, the 10th IEEE Working Conference on Software Visualization.
 
-**Short video introducing our visualization:** https://youtu.be/R5KDR_viFRA  
+**Short video introducing our visualization:** [https://youtu.be/R5KDR_viFRA](https://youtu.be/R5KDR_viFRA)  
 **Artifact with our implementation, replication documentation and the full codes elicited during the study:**
-https://zenodo.org/record/7022610
+[https://zenodo.org/record/7022610](https://zenodo.org/record/7022610)
 We received the award for the best VISSOFT'22 artifact at ICSME's ROSE festival.
 
 ### Abstract
