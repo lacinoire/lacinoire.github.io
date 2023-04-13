@@ -15,8 +15,31 @@ You can find the slides [here](publications/smileseng_2022_slides.pdf).
 If you want to discuss any of the mentioned challenges, shoot me an email!
 
 ### Abstract
-The most common reason for Continuous Integration (CI) builds to break is failing tests. When a build breaks, a developer often has to scroll through hundreds to thousands of log lines to find which test is failing and why. Finding the issue is a tedious process that relies on a developer’s experience and increases the cost of software testing. We investigate how presenting different kinds of contextual information about CI builds in the Integrated Development Environment (IDE) impacts the time developers take to fix a broken build. Our IntelliJ plugin TestAxis surfaces additional information such as a unique view of the code under test that was changed leading up to the build failure. We conduct a user experiment and show that TestAxis helps developers fix failing tests 13.4% to 48.6% faster. The participants found the features of TestAxis useful and would incorporate it in their development workflow to save time. With TestAxis we set an important step towards removing the need to manually inspect build logs and bringing CI build results to the IDE, ultimately saving developers time.
+State-of-the-art test generation strategies employ advanced analyses of the code under test and powerful optimization
+algorithms to generate automatic test cases for software systems.
+As these techniques require a large amount of computational
+power, they are often limited to generating tests after the code
+under test is already written. However, today’s broad education
+about the importance of software testing lets developers strive to
+create test cases directly with new code they are contributing.
+To support these developers, we want to develop an incremental just-in-time test generation tool that works in close
+proximity to the development of the code under test. Whenever
+the developer creates a new class or functionality, the tool
+automatically proposes a matching test case. When the developer
+finishes implementing a new condition, the tool automatically
+recommends an additional test case that tests the code which
+was just added. The generated test cases are closely based on the
+existing test cases in the project with small, incremental changes
+to test the new lines of code.
+To realize such a just-in-time test generation tool we have to
+tackle many challenges: Detecting the completion of a test-worthy
+condition, generating a fitting test case in a short time on the
+developer’s machine, or effectively communicating the value of
+the new test case to the developer. With the participants of the
+SMILESENG Summer School we want discuss our new idea,
+brainstorm on the challenges that this research opens up and
+identify possible approaches to tackle them.
 
 
 ### Keywords
-Software Testing · Continuous Integration · Developer Assistance · IDE Plugin · User Experiment
+Software Testing · Automatic Test Generation · Test-Guided Development · Developer-Centric Design

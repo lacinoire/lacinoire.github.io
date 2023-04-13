@@ -3,7 +3,7 @@
 ### use navigation.yml file to re-order, delete or add section of each card
 ### here you can find all content in all pre-build sections
 
-### icons: https://ionic.io/ionicons/v2
+### icons: https://ionic.io/ionicons/v2 css\f codes: https://ionic.io/ionicons/v2/cheatsheet.html
 
 ### About [ about ]
 about:
@@ -25,8 +25,10 @@ news:
       title: "News"
       icon: "speakerphone"
       items:
-        - label: "We received the award for the best VISSOFT'22 artifact at ICSME's ROSE Festival 🥳. Check out a <a href=\"https://zenodo.org/record/7022610\">short video introduction</a> of our visualization, the <a href=\"https://youtu.be/R5KDR_viFRA\">artifact</a> or our <a href=\"/publications/TIG_paper_VISSOFT_2022.pdf\">paper</a>!"
-        - label: "Are you interested in learning about and celebrating the achievements of women in computing? Join us at Alice&Eve 2022! </br>It's a one day workshop, free for everyone to attend. Including insightful and inspiring talks and lunch 😉 More information and registration on the <a href=\"https://alice-and-eve.github.io/2022/\">event website</a>."
+        - label: "I'll be at ICSE'23 in Melbourne and present our Journal-First paper <a href=\"https://doi.org/10.1007/s10664-021-10094-2\">\"Developer-Centric Test Amplification: The Interplay Between Automatic Generation and Human Exploration\"</a>. Wanna discuss research during the conference? Shoot me a mail to make sure we take the time to meet! 😊"
+
+        - label: "We received the award for the best VISSOFT'22 artifact at ICSME's ROSE Festival. 🥳 Check out a <a href=\"https://youtu.be/R5KDR_viFRA\">short video introduction</a> of our visualization, the <a href=\"https://zenodo.org/record/7022610\">artifact</a> or our <a href=\"/publications/TIG_paper_VISSOFT_2022.pdf\">paper</a>!"
+        # - label: "Are you interested in learning about and celebrating the achievements of women in computing? Join us at Alice&Eve 2022! </br>It's a one day workshop, free for everyone to attend. Including insightful and inspiring talks and lunch 😉 More information and registration on the <a href=\"https://alice-and-eve.github.io/2022/\">event website</a>."
         # - label: "I will present our paper <a href=\"/publications/TIG_paper_VISSOFT_2022.pdf\">\"How Does This New Developer Test Fit In? A Visualization to Understand Amplified Test Cases\"</a> at <a href=\"https://vissoft.info/2022/program.html\">VISSOFT'22</a>."
         # - label: "I will be at <a href=\"https://benevol2022.github.io/\">BENEVOL'22</a> in Mons, Belgium. Let's meet!"
 
@@ -268,24 +270,42 @@ academic-service:
 skills:
   title: "My Skills"
   columns:
+    - type: "list" #skills progress type - default, dotted, circles, list
+      title: "Prizes"
+      icon: "ribbon-b"
+      items:
+        - label: "Best \"New Ideas and Work in Progress\" Paper / Presentation @ SMILESENG Summer School in Cordoba 2022"
+          value: "0"
+
+        - label: "Best Artifact Award at VISSOFT'22"
+          value: "0"
+
+        - label: "2nd Place Poster Competition @ Alice & Eve 2022"
+          value: "0"
+
+
     - type: "default" #skills progress type - default, dotted, circles, list
       title: "Research Methods"
       icon: "easel"
       items:
-        - label: "Interviews"
-          value: "90" #0-100 progress in %
-
-        - label: "Open / Axial Coding"
-          value: "65" #0-100 progress in %
-
-        - label: "Academic Writing"
-          value: "85" #0-100 progress in %
-
-        - label: "Research Design"
-          value: "75" #0-100 progress in %
-
         - label: "Constructive Paper Review"
           value: "95" #0-100 progress in %
+
+        - label: "Rigorous Research Design"
+          value: "85" #0-100 progress in %
+
+        - label: "Academic Writing"
+          value: "75" #0-100 progress in %
+
+        - label: "Open / Axial Coding"
+          value: "80" #0-100 progress in %
+
+        - label: "Interviews"
+          value: "65" #0-100 progress in %
+
+
+
+
 
     - type: "dotted" #skills progress type - default, dotted, circles, list
       title: "Languages"
