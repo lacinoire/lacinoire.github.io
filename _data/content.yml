@@ -25,7 +25,8 @@ news:
       title: "News"
       icon: "speakerphone"
       items:
-        - label: "I'll be at ICSE'23 in Melbourne and present our Journal-First paper <a href=\"https://doi.org/10.1007/s10664-021-10094-2\">\"Developer-Centric Test Amplification: The Interplay Between Automatic Generation and Human Exploration\"</a>. Wanna discuss research during the conference? Shoot me a mail to make sure we take the time to meet! 😊"
+        - label: "I'll be at SCAM'23 / ICSME'23 in Bogota and present our paper <a href=\"publications/guided_test_amplification_SCAM_2023.pdf\">\"When to Let the Developer Guide: Trade-offs
+Between Open and Guided Test Amplification\"</a>. Wanna discuss research during the conference? Shoot me a mail to make sure we take the time to meet! 😊"
 
         - label: "We received the award for the best VISSOFT'22 artifact at ICSME's ROSE Festival. 🥳 Check out a <a href=\"https://youtu.be/R5KDR_viFRA\">short video introduction</a> of our visualization, the <a href=\"https://zenodo.org/record/7022610\">artifact</a> or our <a href=\"/publications/TIG_paper_VISSOFT_2022.pdf\">paper</a>!"
         # - label: "Are you interested in learning about and celebrating the achievements of women in computing? Join us at Alice&Eve 2022! </br>It's a one day workshop, free for everyone to attend. Including insightful and inspiring talks and lunch 😉 More information and registration on the <a href=\"https://alice-and-eve.github.io/2022/\">event website</a>."
@@ -187,6 +188,11 @@ academic-service:
     title: "Academic"
     icon: "university"
     items:
+      - year: "2023"
+        institution: "MSR"
+        text: "Junior PC Technical Track, PC Data and Tool Showcase"
+        h_line: 0
+
       - year: "2022"
         institution: "FUZZING"
         text: "Artifact Evaluation Committee"
@@ -197,7 +203,7 @@ academic-service:
         text: "Program Committee"
         h_line: 1
 
-      - year: "2022"
+      - year: "2022, 2023"
         institution: "IEEE Transactions on Software Engineering"
         text: "Reviewer"
         h_line: 1
@@ -233,7 +239,7 @@ academic-service:
     items:
       - year: "2022"
         institution: "Alice & Eve"
-        text: "Web Chair"
+        text: "Web Chair, Programm Committee"
         h_line: 1
 
       - year: "2022"
@@ -274,14 +280,21 @@ skills:
       title: "Prizes"
       icon: "ribbon-b"
       items:
-        - label: "Best \"New Ideas and Work in Progress\" Paper / Presentation @ SMILESENG Summer School in Cordoba 2022"
+        - label: "Distinguished Reviewer Award </br> at MSR 2023"
           value: "0"
 
-        - label: "Best Artifact Award at VISSOFT'22"
+        - label: "Best \"New Ideas and Work in Progress\" Paper / Presentation </br> at the SMILESENG Summer School in Cordoba 2022"
           value: "0"
 
-        - label: "2nd Place Poster Competition @ Alice & Eve 2022"
+        - label: "Best Artifact Award </br> at VISSOFT 2022"
           value: "0"
+
+        - label: "2nd Place Poster Competition </br> at Alice & Eve 2022"
+          value: "0"
+
+        - label: "International Women in Technology Scholarship 2021 </br> from Zonta"
+          value: "0"
+
 
 
     - type: "default" #skills progress type - default, dotted, circles, list
