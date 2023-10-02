@@ -188,6 +188,16 @@ academic-service:
     title: "Academic"
     icon: "university"
     items:
+      - year: "2024"
+        institution: "MSR"
+        text: "Junior PC Technical Track, PC Data and Tool Showcase"
+        h_line: 0
+
+      - year: "2023"
+        institution: "ACM Transactions on Software Engineering and Methodology"
+        text: "Reviewer"
+        h_line: 0
+
       - year: "2023"
         institution: "MSR"
         text: "Junior PC Technical Track, PC Data and Tool Showcase"
@@ -199,7 +209,7 @@ academic-service:
         h_line: 0
 
       - year: "2022"
-        institution: "BENEVOL"
+        institution: "BENEVOL, TestVis"
         text: "Program Committee"
         h_line: 1
 
@@ -211,11 +221,6 @@ academic-service:
       - year: "2022"
         institution: "Journal of Systems and Software"
         text: "Reviewer"
-        h_line: 1
-
-      - year: "2022"
-        institution: "TestVis"
-        text: "Program Committee"
         h_line: 1
 
       - year: "2021"
@@ -263,14 +268,9 @@ academic-service:
         h_line: 1
 
       - year: "2020"
-        institution: "ESEC/FSE"
+        institution: "ESEC/FSE, ASE"
         text: "Student Volunteer"
         h_line: 1
-
-      - year: "2020"
-        institution: "ASE"
-        text: "Student Volunteer"
-        h_line: 0
 
 ### Skills [ skills ]
 skills:
