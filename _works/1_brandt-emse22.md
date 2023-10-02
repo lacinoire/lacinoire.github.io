@@ -9,6 +9,10 @@ image: assets/img/works/dcta.png
 links:
   - name: Full Publication
     url: publications/DCTA_paper.pdf
+  - name: Presentation Slides
+    url: publications/ICSE23_slides.pdf
+  - name: Online Appendix
+    url: https://zenodo.org/record/5254870
 ---
 
 Carolin Brandt · Andy Zaidman

@@ -11,6 +11,10 @@ links:
     url: publications/guided_test_amplification_SCAM_2023.pdf
   - name: Presentation Slides
     url: publications/guided_test_amplification_SCAM_2023_slides.pdf
+  - name: Online Appendix
+    url: https://zenodo.org/record/8074648
+  - name: Danyao's Master Thesis
+    url: https://repository.tudelft.nl/islandora/object/uuid:61d45fb3-ac3c-447c-a05d-1f7499725a3b
 ---
 
 Carolin Brandt · Danyao Wang · Andy Zaidman

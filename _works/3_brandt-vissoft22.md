@@ -9,6 +9,10 @@ image: assets/img/works/tig.png
 links:
   - name: Full Publication
     url: publications/TIG_paper_VISSOFT_2022.pdf
+  - name: Demo Video
+    url: https://youtu.be/R5KDR_viFRA?si=cSo8snSpeCjYOm9j
+  - name: Replication Package
+    url: https://zenodo.org/record/6644723
 ---
 
 Carolin Brandt · Andy Zaidman
