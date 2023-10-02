@@ -4,7 +4,9 @@ category: ICPC'22
 category_slug: peer-reviewed
 type: content # video, music, photo
 image: assets/img/works/testaxis_cut.png
-button_url: publications/TestAxis_icpc22.pdf
+links:
+  - name: Full Publication
+    url: publications/TestAxis_icpc22.pdf
 ---
 
 Casper Boone · Carolin Brandt · Andy Zaidman

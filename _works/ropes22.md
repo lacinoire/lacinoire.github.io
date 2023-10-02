@@ -4,7 +4,9 @@ category: RoPES'22
 category_slug: presentations
 type: content # video, music, photo
 image: assets/img/works/ropes22.png
-button_url: publications/ropes_2022.pdf
+links:
+  - name: Full Publication
+    url: publications/ropes_2022.pdf
 ---
 
 Carolin Brandt · Andy Zaidman

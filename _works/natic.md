@@ -4,7 +4,9 @@ category: SCAM'21
 category_slug: peer-reviewed
 type: content # video, music, photo
 image: assets/img/works/natic.png
-button_url: publications/NATIC_paper.pdf
+links:
+  - name: Full Publication
+    url: publications/NATIC_paper.pdf
 ---
 
 Nienke Nijkamp · Carolin Brandt · Andy Zaidman

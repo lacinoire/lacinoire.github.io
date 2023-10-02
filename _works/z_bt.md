@@ -4,7 +4,9 @@ category: Bachelor Thesis
 category_slug: more
 type: content # video, music, photo
 image: assets/img/works/bt.png
-button_url: publications/bachelor_thesis.pdf
+links:
+  - name: Full Thesis
+    url: publications/bachelor_thesis.pdf
 ---
 
 In my bachelor thesis I designed a domain specific language to express structural smells in natural-language requirements documents.

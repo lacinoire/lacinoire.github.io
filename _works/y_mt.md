@@ -4,7 +4,9 @@ category: Master Thesis
 category_slug: more
 type: content # video, music, photo
 image: assets/img/works/mt.png
-button_url: publications/master_thesis.pdf
+links:
+  - name: Full Thesis
+    url: publications/master_thesis.pdf
 ---
 
 In my master thesis I compared techniques that learn to parse a chunk of text from continuous integration log files with the help of only a small number of user-provided examples.

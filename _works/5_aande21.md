@@ -4,5 +4,7 @@ category: Alice & Eve 2021
 category_slug: presentations
 type: content # video, music, photo
 image: assets/img/works/aande21.png
-button_url: publications/aandePoster21.pdf
+links:
+  - name: Poster
+    url: publications/aandePoster21.pdf
 ---

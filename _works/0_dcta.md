@@ -4,7 +4,9 @@ category: Empirical Software Engineering
 category_slug: peer-reviewed
 type: content # video, music, photo
 image: assets/img/works/dcta.png
-button_url: publications/DCTA_paper.pdf
+links:
+  - name: Full Publication
+    url: publications/DCTA_paper.pdf
 ---
 
 Carolin Brandt · Andy Zaidman

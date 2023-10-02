@@ -4,7 +4,9 @@ category: Tool
 category_slug: more
 type: content # video, music, photo
 image: assets/img/works/test-cube-logo.png
-button_url: https://github.com/TestShiftProject/test-cube
+links:
+  - name: Code on Github
+    url: https://github.com/TestShiftProject/test-cube
 ---
 
 My IntelliJ Plugin that lets developers generate amplified test cases right in their IDE 😊

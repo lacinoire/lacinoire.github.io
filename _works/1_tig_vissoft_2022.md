@@ -4,7 +4,9 @@ category: VISSOFT'22
 category_slug: peer-reviewed
 type: content # video, music, photo
 image: assets/img/works/tig.png
-button_url: publications/TIG_paper_VISSOFT_2022.pdf
+links:
+  - name: Full Publication
+    url: publications/TIG_paper_VISSOFT_2022.pdf
 ---
 
 Carolin Brandt · Andy Zaidman

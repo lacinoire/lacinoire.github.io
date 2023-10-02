@@ -4,7 +4,9 @@ category: SMILESENG Summer School
 category_slug: presentations
 type: content # video, music, photo
 image: assets/img/works/smileseng22.png
-button_url: publications/smileseng_2022_abstract.pdf
+links:
+  - name: Full Publication
+    url: publications/smileseng_2022_abstract.pdf
 ---
 
 On the SMILESENG Summer School 2022 in Córdoba, Spain, I presented my future work idea of generating test cases right while the developer is writing their production code. With the participants we discussed the open challenges to realize such a powerful tool.

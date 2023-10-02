@@ -105,15 +105,17 @@
 						</div>
 						<div class="desc">
 							<div class="post-box">
-								<h1>{{ work.title }}</h1>						
+								<h1>{{ work.title }}</h1>
 								<div class="blog-detail">{{ work.category }}</div>
+								{% for link in work.links %}
+								<a href="{{ link.url }}" class="publication-button">
+									<span class="text">{{ link.name }}</span>
+									<!-- <span class="arrow"></span> -->
+								</a>
+								{% endfor %}
 								<div class="blog-content">
 									{{ work.content }}
 								</div>
-								<a href="{{ work.button_url }}" class="button">
-									<span class="text">{{ ui_text.view_project }}</span>
-									<span class="arrow"></span>
-								</a>
 							</div>
 						</div>
 					</div>

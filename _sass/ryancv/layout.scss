@@ -1412,12 +1412,12 @@
 		}
 	}
 	.desc {
-		padding: 0 40px;
+		padding: 0 30px;
 		.post-box .blog-content {
 			margin: 0;
 		}
 		.lnk {
-			height: 30px;
+			height: 40px;
 			line-height: 30px;
 		}
 	}
@@ -3756,4 +3756,21 @@
 
 .grid-items {
 	min-height: 1px;
+}
+
+.publication-button {
+	margin: 0 0 11px 0;
+	padding: 0 5px;
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: none;
+	border: 1px solid $dark-color;
+	position: relative;
+	display: inline-block;
+	font-size: $extra2-small-size;
+	line-height: $extra2-small-size+7;
+	color: $dark-color;
+	font-weight: 500;
+	text-transform: uppercase;
+	@include border-radius(4px);
 }

@@ -4,7 +4,11 @@ category: SCAM'23
 category_slug: peer-reviewed
 type: content # video, music, photo
 image: assets/img/works/ugta.png
-button_url: publications/guided_test_amplification_SCAM_2023.pdf
+links:
+  - name: Full Publication
+    url: publications/guided_test_amplification_SCAM_2023.pdf
+  - name: Presentation Slides
+    url: publications/guided_test_amplification_SCAM_2023_slides.pdf
 ---
 
 Carolin Brandt · Danyao Wang · Andy Zaidman

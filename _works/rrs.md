@@ -4,7 +4,9 @@ category: SCAM'21
 category_slug: peer-reviewed
 type: content # video, music, photo
 image: assets/img/works/rrs.jpeg
-button_url: publications/RS_paper.pdf
+links:
+  - name: Full Publication
+    url: publications/RS_paper.pdf
 ---
 
 Wessel Oosterbroek · Carolin Brandt · Andy Zaidman
