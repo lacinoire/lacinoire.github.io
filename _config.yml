@@ -48,9 +48,24 @@ google_maps_zoom: "14" #google maps zoom
 # collections
 collections:
   works:
-   output: true
-   permalink: /:collection/:title
-   output_ext: ""
+    output: true
+    permalink: /:collection/:title
+    output_ext: ""
+    order:
+      - brandt-scam23.md
+      - brandt-emse22.md
+      - brandt-smileseng22.md
+      - boone-icpc22.md
+      - brandt-vissoft22.md
+      - re-pm-capstone-ai-minor-tud.md
+      - brandt-msr20.md
+      - nijkamp-scam21.md
+      - brandt-aliceandeve21.md
+      - brandt-ropes22.md
+      - oosterbroek-scam21.md
+      - testcube.md
+      - bachelor-thesis.md
+      - master-thesis.md
 
 
 # archives
