@@ -2,6 +2,8 @@
 title: "How to Analyze Build Logs — A Comparative Study of Chunk Retrieval Techniques"
 category: Master Thesis
 category_slug: more
+layout: publication
+slug: brandt-master-thesis
 type: content # video, music, photo
 image: assets/img/works/mt.png
 links:

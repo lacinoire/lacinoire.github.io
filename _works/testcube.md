@@ -2,6 +2,8 @@
 title: "IntelliJ Plugin: Test Cube"
 category: Tool
 category_slug: more
+layout: publication
+slug: testcube-tool
 type: content # video, music, photo
 image: assets/img/works/test-cube-logo.png
 links:

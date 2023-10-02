@@ -1,0 +1,54 @@
+---
+layout: default
+---
+{% assign work = page %}
+<!--
+	Card - Page
+-->
+<div class="card-inner blog blog-post animated" id="blog-page">
+	<div class="card-wrap">
+
+		<!--
+			Page
+		-->
+		<div class="content blog-single">
+
+			<!-- title -->
+			<!-- <div class="title">{{ page.title }}</div> -->
+
+			<!-- content -->
+			<div class="row border-line-v">
+				<div class="col col-m-12 col-t-12 col-d-12">
+					<div class="post-box">
+            <div class="content">
+						<div class="image" >
+							<img src="{{ work.image | relative_url }}" alt="" style="width:100%;">
+						</div>
+						<div class="desc">
+							<div class="post-box">
+								<h1>{{ work.title }}</h1>
+								<div class="blog-detail">{{ work.category }}</div>
+								{% for link in work.links %}
+								<a href="{{ link.url }}" class="publication-button">
+									<span class="text">{{ link.name }}</span>
+									<!-- <span class="arrow"></span> -->
+								</a>
+								{% endfor %}
+								<a href="/works/{{ work.slug }}" class="publication-button">
+									<span class="text">Permalink to here</span>
+									<!-- <span class="arrow"></span> -->
+								</a>
+								<div class="blog-content">
+									{{ work.content }}
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+		</div>
+
+	</div>
+</div>

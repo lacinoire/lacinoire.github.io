@@ -2,6 +2,8 @@
 title: Fixing Continuous Integration Tests From Within the IDE With Contextual Information
 category: ICPC'22
 category_slug: peer-reviewed
+layout: publication
+slug: boone-icpc22
 type: content # video, music, photo
 image: assets/img/works/testaxis_cut.png
 links:

@@ -2,6 +2,8 @@
 title: Incremental Just-In-Time Test Generation in Lock-Step with Code Development
 category: SMILESENG Summer School
 category_slug: presentations
+layout: publication
+slug: brandt-smileseng22
 type: content # video, music, photo
 image: assets/img/works/smileseng22.png
 links:

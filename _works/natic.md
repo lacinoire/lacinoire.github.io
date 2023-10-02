@@ -2,6 +2,8 @@
 title: Naming Amplified Tests Based on Improved Coverage
 category: SCAM'21
 category_slug: peer-reviewed
+layout: publication
+slug: nijkamp-scam21
 type: content # video, music, photo
 image: assets/img/works/natic.png
 links:

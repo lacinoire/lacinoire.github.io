@@ -47,7 +47,11 @@ google_maps_zoom: "14" #google maps zoom
 
 # collections
 collections:
-  - works
+  works:
+   output: true
+   permalink: /:collection/:title
+   output_ext: ""
+
 
 # archives
 jekyll-archives:

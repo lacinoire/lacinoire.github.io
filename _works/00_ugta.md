@@ -2,6 +2,8 @@
 title: "When to Let the Developer Guide: Trade-offs Between Open and Guided Test Amplification"
 category: SCAM'23
 category_slug: peer-reviewed
+layout: publication
+slug: brandt-scam23
 type: content # video, music, photo
 image: assets/img/works/ugta.png
 links:

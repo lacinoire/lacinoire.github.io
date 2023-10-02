@@ -2,6 +2,8 @@
 title: "A Description Language for Structural Smells"
 category: Bachelor Thesis
 category_slug: more
+layout: publication
+slug: brandt-bachelor-thesis
 type: content # video, music, photo
 image: assets/img/works/bt.png
 links:

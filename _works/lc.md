@@ -2,6 +2,8 @@
 title: "LogChunks: A Data Set for Build Log Analysis"
 category: MSR'20
 category_slug: peer-reviewed
+layout: publication
+slug: brandt-msr20
 type: content # video, music, photo
 image: assets/img/works/lc.png
 links:

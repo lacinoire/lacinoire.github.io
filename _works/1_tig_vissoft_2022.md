@@ -2,6 +2,8 @@
 title: How Does This New Developer Test Fit In? A Visualization to Understand Amplified Test Cases
 category: VISSOFT'22
 category_slug: peer-reviewed
+layout: publication
+slug: brandt-vissoft22
 type: content # video, music, photo
 image: assets/img/works/tig.png
 links:

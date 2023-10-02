@@ -237,7 +237,7 @@ $(function () {
 		}
 	});
 
-	
+
 	/*
 		Video popup
 	*/
