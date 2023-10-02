@@ -29,12 +29,12 @@ layout: default
 								<h1>{{ work.title }}</h1>
 								<div class="blog-detail">{{ work.category }}</div>
 								{% for link in work.links %}
-								<a href="{{ link.url }}" class="publication-button">
+								<a href="{{ link.url }}" class="publication-button" target="_blank">
 									<span class="text">{{ link.name }}</span>
 									<!-- <span class="arrow"></span> -->
 								</a>
 								{% endfor %}
-								<a href="/works/{{ work.slug }}" class="publication-button">
+								<a href="/works/{{ work.slug }}" class="publication-button" target="_blank">
 									<span class="text">Permalink to here</span>
 									<!-- <span class="arrow"></span> -->
 								</a>

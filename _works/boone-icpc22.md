@@ -9,7 +9,15 @@ image: assets/img/works/testaxis_cut.png
 links:
   - name: Full Publication
     url: publications/TestAxis_icpc22.pdf
-  - name: DOI
+  - name: Presentation Recording
+    url: https://youtu.be/m-h5k7tGNsw?si=lBrCISjIY-RB7dN7
+  - name: Code on GitHub
+    url: https://github.com/testaxis
+  - name: Replication Package
+    url: https://zenodo.org/record/5526015
+  - name: Casper's Master Thesis
+    url: https://repository.tudelft.nl/islandora/object/uuid:f8375d5f-3bbd-4559-863b-6951e9d6bab0?collection=education
+  - name: Paper DOI
     url: https://doi.org/10.1145/3524610.3527908
 ---
 
