@@ -56,3 +56,10 @@ main:
     sections:
         - contacts-info
         # - contacts-form
+
+  # deadlines card
+  - title: "Deadlines"
+    icon: "android-chat"
+    slug: deadlines
+    sections:
+        - deadlines

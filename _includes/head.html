@@ -18,6 +18,8 @@
 
   {% assign settings = site.data.settings['settings'] %}
 
+  {%- include scripts.html -%}
+
   <!-- Template RTL -->
   {% if settings.rtl == 1 %}
   <link rel="stylesheet" href="{{ 'assets/css/rtl.css' | relative_url }}" />

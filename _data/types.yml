@@ -1,0 +1,10 @@
+---
+- name: Artificial Intelligence
+  sub: AI
+  color: "#deff0a"
+- name: Sustainability
+  sub: SUST
+  color: "#0aefff"
+- name: Software Engineering
+  sub: SE
+  color: "#147df5"

@@ -20,7 +20,7 @@ $(window).on("load", function() {
 
 $(function () {
 	'use strict';
-	
+
 	
 	/*
 		Vars

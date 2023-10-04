@@ -89,6 +89,11 @@ exclude:
   - node_modules/
   - vendor/
 
+keep_files:
+  - /assets/js/moment.min.js.map
+  - /assets/js/bootstrap.min.js.map
+  - /assets/js/popper.min.js.map
+
 sass:
   style: compressed
 

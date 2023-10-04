@@ -1,0 +1,52 @@
+- title: ICSE-SEIP
+  year: 2024
+  id: icseseip24
+  link: https://conf.researchr.org/track/icse-2024/icse-2024-software-engineering-in-practice
+  deadline: TBA
+  timezone: UTC-12
+  place: Lisbon, Portugal
+  date: April 14-20, 2024
+  start: 2024-04-14
+  end: 2024-04-20
+  #hindex: 120
+  sub: SE
+
+- title: ICSE-SEIP
+  year: 2024
+  id: icseseip24
+  link: https://conf.researchr.org/track/icse-2024/icse-2024-software-engineering-in-practice
+  deadline: '2023-10-06 23:59:59'
+  timezone: UTC-12
+  place: Lisbon, Portugal
+  date: April 14-20, 2024
+  start: 2024-04-14
+  end: 2024-04-20
+  #hindex: 120
+  sub: SE
+
+- title: ICSE-Demos
+  year: 2024
+  id: icsedemo24
+  link: https://conf.researchr.org/track/icse-2024/icse-2024-demonstrations
+  deadline: '2023-10-23 23:59:59'
+  timezone: UTC-12
+  place: Lisbon, Portugal
+  date: April 14-20, 2024
+  start: 2024-04-14
+  end: 2024-04-20
+  #hindex: 120
+  sub: SE
+  note: The submission must be accompanied by a short video (between three and five minutes long) illustrating the demonstration.
+
+- title: REFSQ
+  year: 2024
+  id: refsq24
+  link: https://2024.refsq.org/
+  deadline: '2023-11-11 23:59:59'
+  timezone: UTC-12
+  place: Winterthur, Switzerland
+  date: April 08-11, 2024
+  start: 2024-04-08
+  end: 2024-04-11
+  #hindex: 120
+  sub: SE
