@@ -8,7 +8,7 @@ type: content # video, music, photo
 image: assets/img/works/bt.png
 links:
   - name: Full Thesis
-    url: publications/bachelor_thesis.pdf
+    url: https://carolin-brandt.de/publications/bachelor_thesis.pdf
 ---
 
 In my bachelor thesis I designed a domain specific language to express structural smells in natural-language requirements documents.

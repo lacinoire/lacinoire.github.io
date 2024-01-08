@@ -8,7 +8,7 @@ type: content # video, music, photo
 image: assets/img/works/ropes22.png
 links:
   - name: Full Publication
-    url: publications/ropes_2022.pdf
+    url: https://carolin-brandt.de/publications/ropes_2022.pdf
 ---
 
 Carolin Brandt · Andy Zaidman

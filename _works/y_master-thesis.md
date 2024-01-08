@@ -8,7 +8,7 @@ type: content # video, music, photo
 image: assets/img/works/mt.png
 links:
   - name: Full Thesis
-    url: publications/master_thesis.pdf
+    url: https://carolin-brandt.de/publications/master_thesis.pdf
 ---
 
 In my master thesis I compared techniques that learn to parse a chunk of text from continuous integration log files with the help of only a small number of user-provided examples.

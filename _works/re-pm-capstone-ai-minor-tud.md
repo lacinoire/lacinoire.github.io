@@ -8,7 +8,7 @@ type: content # video, music, photo
 image: assets/img/works/re-for-capstone.png
 links:
   - name: Slides
-    url: publications/RE+PMforCapstone.pdf
+    url: https://carolin-brandt.de/publications/RE+PMforCapstone.pdf
 ---
 
 The slides for my lecture on Requirements Engineering and Project Management for the Capstone Project of the TU Delft AI Minor.

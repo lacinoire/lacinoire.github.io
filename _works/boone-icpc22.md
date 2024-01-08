@@ -8,7 +8,7 @@ type: content # video, music, photo
 image: assets/img/works/testaxis_cut.png
 links:
   - name: Full Publication
-    url: publications/TestAxis_icpc22.pdf
+    url: https://carolin-brandt.de/publications/TestAxis_icpc22.pdf
   - name: Presentation Recording
     url: https://youtu.be/m-h5k7tGNsw?si=lBrCISjIY-RB7dN7
   - name: Code on GitHub

@@ -8,7 +8,7 @@ type: content # video, music, photo
 image: assets/img/works/rrs.jpeg
 links:
   - name: Full Publication
-    url: publications/RS_paper.pdf
+    url: https://carolin-brandt.de/publications/RS_paper.pdf
 ---
 
 Wessel Oosterbroek · Carolin Brandt · Andy Zaidman

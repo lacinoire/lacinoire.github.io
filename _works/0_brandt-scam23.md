@@ -8,9 +8,9 @@ type: content # video, music, photo
 image: assets/img/works/ugta.png
 links:
   - name: Full Publication
-    url: publications/guided_test_amplification_SCAM_2023.pdf
+    url: https://carolin-brandt.de/publications/guided_test_amplification_SCAM_2023.pdf
   - name: Presentation Slides
-    url: publications/guided_test_amplification_SCAM_2023_slides.pdf
+    url: https://carolin-brandt.de/publications/guided_test_amplification_SCAM_2023_slides.pdf
   - name: Online Appendix
     url: https://zenodo.org/record/8074648
   - name: Danyao's Master Thesis

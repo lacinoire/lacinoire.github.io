@@ -8,5 +8,5 @@ type: content # video, music, photo
 image: assets/img/works/aande21.png
 links:
   - name: Poster
-    url: publications/aandePoster21.pdf
+    url: https://carolin-brandt.de/publications/aandePoster21.pdf
 ---

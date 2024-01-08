@@ -8,7 +8,7 @@ type: content # video, music, photo
 image: assets/img/works/natic.png
 links:
   - name: Full Publication
-    url: publications/NATIC_paper.pdf
+    url: https://carolin-brandt.de/publications/NATIC_paper.pdf
 ---
 
 Nienke Nijkamp · Carolin Brandt · Andy Zaidman

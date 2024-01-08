@@ -8,7 +8,7 @@ type: content # video, music, photo
 image: assets/img/works/moz-fuzz.png
 links:
   - name: Full Publication
-    url: publications/brandt-icseseip24.pdf
+    url: https://carolin-brandt.de/publications/brandt-icseseip24.pdf
   # - name: Presentation Slides
   #   url: publications/guided_test_amplification_SCAM_2023_slides.pdf
   - name: Replication Package
