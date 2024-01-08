@@ -25,10 +25,11 @@ news:
       title: "News"
       icon: "speakerphone"
       items:
-        - label: "I'll be at SCAM'23 / ICSME'23 in Bogota and present our paper <a href=\"publications/guided_test_amplification_SCAM_2023.pdf\">\"When to Let the Developer Guide: Trade-offs
-Between Open and Guided Test Amplification\"</a>. Wanna discuss research during the conference? Shoot me a mail to make sure we take the time to meet! 😊"
+        - label: "Our paper <a href=\"works/brandt-icseseip24\">\"Mind the Gap: What Working With Developers on Fuzz Tests Taught Us About Coverage Gaps\"</a> was accepted at ICSE - Software Engineering in Practice 2024 🥳"
+        - label: "I visited SCAM'23 / ICSME'23 in Bogota and presented our paper <a href=\"publications/guided_test_amplification_SCAM_2023.pdf\">\"When to Let the Developer Guide: Trade-offs
+Between Open and Guided Test Amplification\"</a>."
 
-        - label: "We received the award for the best VISSOFT'22 artifact at ICSME's ROSE Festival. 🥳 Check out a <a href=\"https://youtu.be/R5KDR_viFRA\">short video introduction</a> of our visualization, the <a href=\"https://zenodo.org/record/7022610\">artifact</a> or our <a href=\"/publications/TIG_paper_VISSOFT_2022.pdf\">paper</a>!"
+        # - label: "We received the award for the best VISSOFT'22 artifact at ICSME's ROSE Festival. 🥳 Check out a <a href=\"https://youtu.be/R5KDR_viFRA\">short video introduction</a> of our visualization, the <a href=\"https://zenodo.org/record/7022610\">artifact</a> or our <a href=\"/publications/TIG_paper_VISSOFT_2022.pdf\">paper</a>!"
         # - label: "Are you interested in learning about and celebrating the achievements of women in computing? Join us at Alice&Eve 2022! </br>It's a one day workshop, free for everyone to attend. Including insightful and inspiring talks and lunch 😉 More information and registration on the <a href=\"https://alice-and-eve.github.io/2022/\">event website</a>."
         # - label: "I will present our paper <a href=\"/publications/TIG_paper_VISSOFT_2022.pdf\">\"How Does This New Developer Test Fit In? A Visualization to Understand Amplified Test Cases\"</a> at <a href=\"https://vissoft.info/2022/program.html\">VISSOFT'22</a>."
         # - label: "I will be at <a href=\"https://benevol2022.github.io/\">BENEVOL'22</a> in Mons, Belgium. Let's meet!"
@@ -189,8 +190,13 @@ academic-service:
     icon: "university"
     items:
       - year: "2024"
+        institution: "Workshop on Validation, Analysis and Evolution of Software Tests at SANER"
+        text: "Program Committee"
+        h_line: 0
+
+      - year: "2024"
         institution: "MSR"
-        text: "Junior PC Technical Track, PC Data and Tool Showcase"
+        text: "PC Technical Track, PC Data and Tool Showcase"
         h_line: 0
 
       - year: "2023"
