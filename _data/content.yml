@@ -190,7 +190,7 @@ academic-service:
     icon: "university"
     items:
       - year: "2024"
-        institution: "Workshop on Validation, Analysis and Evolution of Software Tests at SANER"
+        institution: "VST"
         text: "Program Committee"
         h_line: 0
 
