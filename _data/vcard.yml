@@ -12,7 +12,7 @@ main:
   photo: ""
   name: "Carolin Brandt"
   typed:
-    - text: "PhD Student"
+    - text: "Post-Doc"
     - text: "Researcher"
     - text: "Software Developer"
   social:

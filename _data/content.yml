@@ -11,7 +11,7 @@ about:
   text: "
         <p>
           <strong>Hello! I’m Caro 🐳</strong>
-          <br>I'm a PhD Student at the <a href=\"https://se.ewi.tudelft.nl/\">Software Engineering Research Group</a> of <a href=\"https://www.tudelft.nl/\">TU Delft</a>.
+          <br>I'm working as a Post-Doc (PhD Defense scheduled for June 2024) at the <a href=\"https://se.ewi.tudelft.nl/\">Software Engineering Research Group</a> of <a href=\"https://www.tudelft.nl/\">TU Delft</a>.
           My research centers around amplifying tests for and with developers:
           Letting automatic test amplification tools collaborate with developers
           to generate test cases that they can use to improve their test suites 😊
@@ -25,10 +25,11 @@ news:
       title: "News"
       icon: "speakerphone"
       items:
+        - label: "I'm on the job market! Looking to stay in academia. If you have any positions that you think would fit (assistant professor or postdoc level), please send me an <a href=\"mailto:c.e.brandt@tudelft.nl\">email</a>! 😄"
         - label: "Our paper <a href=\"works/brandt-tse24\">\"Shaken, Not Stirred. How Developers Like Their Amplified Tests\"</a> was accepted at IEEE Transactions on Software Engineering 🙌🏼"
         - label: "Our paper <a href=\"works/brandt-icseseip24\">\"Mind the Gap: What Working With Developers on Fuzz Tests Taught Us About Coverage Gaps\"</a> was accepted at ICSE - Software Engineering in Practice 2024 🥳"
         - label: "The paper of my master student Khalid <a href=\"works/elhaji-ast24\">\"Using GitHub Copilot for Test Generation in Python: An Empirical Study\"</a> was accepted at AST 2024! 💪🏼"
-        
+
         # - label: "I visited SCAM'23 / ICSME'23 in Bogota and presented our paper <a href=\"publications/guided_test_amplification_SCAM_2023.pdf\">\"When to Let the Developer Guide: Trade-offs Between Open and Guided Test Amplification\"</a>."
 
         # - label: "We received the award for the best VISSOFT'22 artifact at ICSME's ROSE Festival. 🥳 Check out a <a href=\"https://youtu.be/R5KDR_viFRA\">short video introduction</a> of our visualization, the <a href=\"https://zenodo.org/record/7022610\">artifact</a> or our <a href=\"/publications/TIG_paper_VISSOFT_2022.pdf\">paper</a>!"
@@ -250,6 +251,11 @@ academic-service:
     title: "Organization"
     icon: "clipboard"
     items:
+      - year: "2023+"
+        institution: "<a href=\"https://www.tudelft.nl/en/about-tu-delft/strategy/diversity-inclusion/network-partners/diversability\">DiversAbility</a> TU Delft "
+        text: "Board Member"
+        h_line: 1
+
       - year: "2022"
         institution: "Alice & Eve"
         text: "Web Chair, Programm Committee"
@@ -396,7 +402,21 @@ resume:
     icon: "university"
     items:
 
-      - year: "2020 - Current"
+      - year: "2024 - Current"
+        role: "Post-Doc"
+        company: "Software Engineering Research Group, Delft University of Technology"
+        # text: "I'm continuing my work on helping software developers in their day-to-day testing and quality assurance practices. During my Post-Doc I am branching out into other research areas and collaborating with PhD students in Delft and researchers from around the world."
+        active: 1
+        h_line: 1
+
+      - year: "August - November 2023"
+        role: "Visiting PhD Student"
+        company: "Hamburg University, Applied Software Technology Group"
+        text: "Guest of Prof. Walid Maalej, exploring connections between software testing and requirements engineering research."
+        # active: 1
+        h_line: 1
+
+      - year: "2020 - 2024"
         role: "PhD Student"
         company: "Software Engineering Research Group, Delft University of Technology"
         text: "Generating tests for and with developers using test amplification and visualization. Part of the TestShift project, supervised by Andy Zaidman."
@@ -502,6 +522,14 @@ blog:
 ### Contact Info List [ contacts-info ]
 contacts_info:
   title: "Get in Touch"
+  text:  "
+        <p>
+          <strong>Wanna have a chat about research ideas or collaboration possibilities?</strong>
+          <br>I'm looking to extend my network and work together with other researchers on software testing, automated tools supporting developers and other fun software engineering topics (there are too many to name! 😉).<br>
+          In working with me you can expect energetic initiative and clear structure, as well as a huge passion and focus on the developer's perspective and how our tools can actually be useful for their development reality. <br><br>
+          If you are thinking about maybe working together or interested to ping-pong some ideas, shoot me an email!
+        </p>
+        "
   list:
     - label: "Email"
       value: "c.e.brandt@tudelft.nl"
