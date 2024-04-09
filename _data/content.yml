@@ -25,7 +25,7 @@ news:
       title: "News"
       icon: "speakerphone"
       items:
-        - label: "I'm on the job market! Looking to stay in academia. If you have any positions that you think would fit (assistant professor or postdoc level), please send me an <a href=\"mailto:c.e.brandt@tudelft.nl\">email</a>! 😄"
+        - label: "I'm on the job market! Looking to stay in academia. If you have any positions that you think would fit (assistant professor or postdoc level), please come talk to me at ICSE or send me an <a href=\"mailto:c.e.brandt@tudelft.nl\">email</a>! 😄"
         - label: "Our paper <a href=\"works/brandt-tse24\">\"Shaken, Not Stirred. How Developers Like Their Amplified Tests\"</a> was accepted at IEEE Transactions on Software Engineering 🙌🏼"
         - label: "Our paper <a href=\"works/brandt-icseseip24\">\"Mind the Gap: What Working With Developers on Fuzz Tests Taught Us About Coverage Gaps\"</a> was accepted at ICSE - Software Engineering in Practice 2024 🥳"
         - label: "The paper of my master student Khalid <a href=\"works/elhaji-ast24\">\"Using GitHub Copilot for Test Generation in Python: An Empirical Study\"</a> was accepted at AST 2024! 💪🏼"
@@ -193,13 +193,18 @@ academic-service:
     icon: "university"
     items:
       - year: "2024"
-        institution: "VST"
-        text: "Program Committee"
+        institution: "ASE"
+        text: "Artifact Evaluation Committee"
         h_line: 0
 
       - year: "2024"
         institution: "MSR"
         text: "PC Technical Track, PC Data and Tool Showcase"
+        h_line: 0
+
+      - year: "2024"
+        institution: "VST"
+        text: "Program Committee"
         h_line: 0
 
       - year: "2023"
@@ -220,27 +225,27 @@ academic-service:
       - year: "2022"
         institution: "BENEVOL, TestVis"
         text: "Program Committee"
-        h_line: 1
+        h_line: 0
 
       - year: "2022, 2023"
         institution: "IEEE Transactions on Software Engineering"
         text: "Reviewer"
-        h_line: 1
+        h_line: 0
 
       - year: "2022"
         institution: "Journal of Systems and Software"
         text: "Reviewer"
-        h_line: 1
+        h_line: 0
 
       - year: "2021"
         institution: "Journal of Software: Evolution and Process"
         text: "Reviewer"
-        h_line: 1
+        h_line: 0
 
       - year: "2021"
         institution: "VISSOFT"
         text: "Program Committee"
-        h_line: 1
+        h_line: 0
 
       - year: "2021"
         institution: "ISSTA"
@@ -254,37 +259,37 @@ academic-service:
       - year: "2023+"
         institution: "<a href=\"https://www.tudelft.nl/en/about-tu-delft/strategy/diversity-inclusion/network-partners/diversability\">DiversAbility</a> TU Delft "
         text: "Board Member"
-        h_line: 1
+        h_line: 0
 
       - year: "2022"
         institution: "Alice & Eve"
         text: "Web Chair, Programm Committee"
-        h_line: 1
+        h_line: 0
 
       - year: "2022"
         institution: "ECOOP"
         text: "Publicity Chair"
-        h_line: 1
+        h_line: 0
 
       - year: "2021"
         institution: "VISSOFT"
         text: "Publicity Chair"
-        h_line: 1
+        h_line: 0
 
       - year: "2021"
         institution: "ICSE"
         text: "Organization Committee, responsible for Watch Parties and Gather.Town"
-        h_line: 1
+        h_line: 0
         
       - year: "2020"
         institution: "ICSE"
         text: "Student Volunteer, responsible for Streaming in the Europe Timeband"
-        h_line: 1
+        h_line: 0
 
       - year: "2020"
         institution: "ESEC/FSE, ASE"
         text: "Student Volunteer"
-        h_line: 1
+        h_line: 0
 
 ### Skills [ skills ]
 skills:
@@ -405,7 +410,7 @@ resume:
       - year: "2024 - Current"
         role: "Post-Doc"
         company: "Software Engineering Research Group, Delft University of Technology"
-        # text: "I'm continuing my work on helping software developers in their day-to-day testing and quality assurance practices. During my Post-Doc I am branching out into other research areas and collaborating with PhD students in Delft and researchers from around the world."
+        text: "Exploring other ways to support software engineers. Gaining experience in co-supervising and international / industry collaborations."
         active: 1
         h_line: 1
 
@@ -534,7 +539,7 @@ contacts_info:
     - label: "Email"
       value: "c.e.brandt@tudelft.nl"
 
-    - label: "Twitter-DM"
+    - label: "Twitter"
       value: "@laci_noire"
 
     - label: "Office"
