@@ -299,6 +299,9 @@ skills:
       title: "Prizes"
       icon: "ribbon-b"
       items:
+        - label: "Distinguished Reviewer Award </br> at MSR 2024"
+          value: "0"
+
         - label: "Distinguished Reviewer Award </br> at MSR 2023"
           value: "0"
 

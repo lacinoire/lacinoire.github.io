@@ -15,6 +15,8 @@ links:
   #   url: https://carolin-brandt.de/publications/guided_test_amplification_SCAM_2023_slides.pdf
   - name: Replication Package
     url: https://zenodo.org/doi/10.5281/zenodo.7034924
+  - name: Poster
+    url: https://carolin-brandt.de/works/brandt-aliceandeve22-ictopen23
 ---
 
 Carolin Brandt · Ali Khatami · Mairieli Wessel · Andy Zaidman

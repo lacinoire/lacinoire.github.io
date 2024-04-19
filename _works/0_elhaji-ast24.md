@@ -9,8 +9,8 @@ image: assets/img/works/elhaji-ast24.png
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/elhaji-ast24.pdf
-  # - name: Presentation Slides
-  #   url: publications/guided_test_amplification_SCAM_2023_slides.pdf
+  - name: Presentation Slides
+    url: https://carolin-brandt.de/publications/elhaji-ast24-slides.pdf
   - name: Replication Package
     url: https://zenodo.org/doi/10.5281/zenodo.8025360
   - name: DOI
