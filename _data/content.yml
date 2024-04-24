@@ -54,22 +54,22 @@ news:
 services:
   title: "My Research Interests"
   items:
-    - icon: "code"
+    - icon: "person"
       name: "Developer Involvement"
       text: "How do we use a developer's expertise in automated tools?"
       h_line: 1
 
-    - icon: "music-note"
+    - icon: "laptop"
       name: "Automatic Software Quality"
       text: "How do we improve software with as little developer effort as possible?"
       h_line: 1
 
-    - icon: "speakerphone"
+    - icon: "image"
       name: "Visualization"
       text: "How do we effectively use visual communication in software engineering?"
       h_line: 0
 
-    - icon: "ios-game-controller-b"
+    - icon: "search"
       name: "Research Methods"
       text: "How do we help SE researchers do rigorous, reproducible and impactful research?"
       h_line: 0
