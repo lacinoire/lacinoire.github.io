@@ -11,6 +11,8 @@ links:
     url: https://carolin-brandt.de/publications/brandt-phd-thesis.pdf
   - name: Propositions
     url: https://carolin-brandt.de/publications/brandt-phd-thesis-propositions.pdf
+  - name: Thesis without Cover (smaller file size)
+    url: https://carolin-brandt.de/publications/brandt-phd-thesis-no-cover.pdf
   # - name: Replication Package
   #   url: https://zenodo.org/doi/10.5281/zenodo.10470823
 ---
