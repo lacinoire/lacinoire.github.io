@@ -256,6 +256,16 @@ academic-service:
     title: "Organization"
     icon: "clipboard"
     items:
+      - year: "2025"
+        institution: "IDE Workshop"
+        text: "Co-Organizer"
+        h_line: 0
+
+      - year: "2025"
+        institution: "ICST"
+        text: "Publicity Chair"
+        h_line: 0
+
       - year: "2023+"
         institution: "<a href=\"https://www.tudelft.nl/en/about-tu-delft/strategy/diversity-inclusion/network-partners/diversability\">DiversAbility</a> TU Delft "
         text: "Board Member"
