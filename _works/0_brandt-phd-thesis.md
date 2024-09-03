@@ -13,6 +13,8 @@ links:
     url: https://carolin-brandt.de/publications/brandt-phd-thesis-propositions.pdf
   - name: Thesis without Cover (smaller file size)
     url: https://carolin-brandt.de/publications/brandt-phd-thesis-no-cover.pdf
+  - name: DOI
+    url: https://doi.org/10.4233/uuid:aedfd7b6-f9ae-4b76-9122-29e43995d36f
   # - name: Replication Package
   #   url: https://zenodo.org/doi/10.5281/zenodo.10470823
 ---

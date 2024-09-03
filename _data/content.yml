@@ -11,11 +11,10 @@ about:
   text: "
         <p>
           <strong>Hello! I’m Caro 🐳</strong>
-          <br>I'm working as a Post-Doc (PhD Defense scheduled for July 8th 2024) at the <a href=\"https://se.ewi.tudelft.nl/\">Software Engineering Research Group</a> of <a href=\"https://www.tudelft.nl/\">TU Delft</a>.
-          My research centers around amplifying tests for and with developers:
-          Letting automatic test amplification tools collaborate with developers
-          to generate test cases that they can use to improve their test suites 😊
-          <br>My PhD advisor is <a href=\"https://azaidman.github.io/\">Andy Zaidman</a> and I'm part of the <a href=\"https://testshiftproject.github.io/\">TestShift</a> project.
+          <br>I'm an Assistant Professor at the <a href=\"https://se.ewi.tudelft.nl/\">Software Engineering Research Group</a> of <a href=\"https://www.tudelft.nl/\">TU Delft</a>.
+          My research focuses on embedding the future users of software and automation tools more closely and responsibly into the software development process.
+          In my <a href=\"https://carolin-brandt.de/works/brandt-phd-thesis\">PhD</a> with my advisor <a href=\"https://azaidman.github.io/\">Andy Zaidman</a>, I investigated how to let automatic test amplification tools collaborate with developers
+          to generate test cases that they can use to improve their test suites. 😊
         </p>
         "
 
@@ -25,11 +24,12 @@ news:
       title: "News"
       icon: "speakerphone"
       items:
-        - label: "I'm on the job market! Looking to stay in academia. If you have any positions that you think would fit (assistant professor or postdoc level), please come talk to me at ICSE or send me an <a href=\"mailto:c.e.brandt@tudelft.nl\">email</a>! 😄"
+        - label: "I've started as an Assistant Professor at TU Delft. 😊"
         - label: "Our paper <a href=\"works/brandt-tse24\">\"Shaken, Not Stirred. How Developers Like Their Amplified Tests\"</a> was accepted at IEEE Transactions on Software Engineering 🙌🏼"
         - label: "Our paper <a href=\"works/brandt-icseseip24\">\"Mind the Gap: What Working With Developers on Fuzz Tests Taught Us About Coverage Gaps\"</a> was accepted at ICSE - Software Engineering in Practice 2024 🥳"
         - label: "The paper of my master student Khalid <a href=\"works/elhaji-ast24\">\"Using GitHub Copilot for Test Generation in Python: An Empirical Study\"</a> was accepted at AST 2024! 💪🏼"
 
+        # - label: "I'm on the job market! Looking to stay in academia. If you have any positions that you think would fit (assistant professor or postdoc level), please come talk to me at ICSE or send me an <a href=\"mailto:c.e.brandt@tudelft.nl\">email</a>! 😄"
         # - label: "I visited SCAM'23 / ICSME'23 in Bogota and presented our paper <a href=\"publications/guided_test_amplification_SCAM_2023.pdf\">\"When to Let the Developer Guide: Trade-offs Between Open and Guided Test Amplification\"</a>."
 
         # - label: "We received the award for the best VISSOFT'22 artifact at ICSME's ROSE Festival. 🥳 Check out a <a href=\"https://youtu.be/R5KDR_viFRA\">short video introduction</a> of our visualization, the <a href=\"https://zenodo.org/record/7022610\">artifact</a> or our <a href=\"/publications/TIG_paper_VISSOFT_2022.pdf\">paper</a>!"
@@ -419,8 +419,14 @@ resume:
     title: "Academic"
     icon: "university"
     items:
+      - year: "2024 - current"
+        role: "Assistant Professor"
+        company: "Software Engineering Research Group, Delft University of Technology"
+        text: "Embedding the future users of software and automation tools more closely and responsibly into the software development process."
+        active: 1
+        h_line: 1
 
-      - year: "2024 - Current"
+      - year: "2024 - 2024"
         role: "Post-Doc"
         company: "Software Engineering Research Group, Delft University of Technology"
         text: "Exploring other ways to support software engineers. Gaining experience in co-supervising and international / industry collaborations."
@@ -543,7 +549,7 @@ contacts_info:
   text:  "
         <p>
           <strong>Wanna have a chat about research ideas or collaboration possibilities?</strong>
-          <br>I'm looking to extend my network and work together with other researchers on software testing, automated tools supporting developers and other fun software engineering topics (there are too many to name! 😉).<br>
+          <br>I'm looking to extend my network and work together with other researchers on embedding users into software development, automated tools supporting developers and other fun software engineering topics (there are too many to name! 😉).<br>
           In working with me you can expect energetic initiative and clear structure, as well as a huge passion and focus on the developer's perspective and how our tools can actually be useful for their development reality. <br><br>
           If you are thinking about maybe working together or interested to ping-pong some ideas, shoot me an email!
         </p>
@@ -552,11 +558,14 @@ contacts_info:
     - label: "Email"
       value: "c.e.brandt@tudelft.nl"
 
+    - label: "LinkedIn"
+      value: "https://www.linkedin.com/in/carolin-brandt/"
+
     - label: "Twitter"
       value: "@laci_noire"
 
     - label: "Office"
-      value: "W 1.920, Building 28"
+      value: "1.W.880, Building 28"
 
     - label: "Address"
       value: "Van Mourik Broekmanweg 6<br>2628 XE Delft, The Netherlands"
