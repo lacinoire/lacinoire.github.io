@@ -11,7 +11,8 @@ about:
   text: "
         <p>
           <strong>Hello! I’m Caro 🐳</strong>
-          <br>I'm an Assistant Professor at the <a href=\"https://se.ewi.tudelft.nl/\">Software Engineering Research Group</a> of <a href=\"https://www.tudelft.nl/\">TU Delft</a>.
+          <br>I'm an Assistant Professor at the <a href=\"https://se.ewi.tudelft.nl/\">Software Engineering Research Group</a> of <a href=\"https://www.tudelft.nl/\">TU Delft</a>,
+          where I lead the research line on <a href=\"https://se.ewi.tudelft.nl/research-lines/human-and-developer-centered-se/\">Human- and Developer-centered Software Engineering</a>.
           My research focuses on embedding the future users of software and automation tools more closely and responsibly into the software development process.
           In my <a href=\"https://carolin-brandt.de/works/brandt-phd-thesis\">PhD</a> with my advisor <a href=\"https://azaidman.github.io/\">Andy Zaidman</a>, I investigated how to let automatic test amplification tools collaborate with developers
           to generate test cases that they can use to improve their test suites. 😊
@@ -422,7 +423,7 @@ resume:
       - year: "2024 - current"
         role: "Assistant Professor"
         company: "Software Engineering Research Group, Delft University of Technology"
-        text: "Embedding the future users of software and automation tools more closely and responsibly into the software development process."
+        text: "Embedding the future users and current developers of software and automation tools more closely and responsibly into the software development process."
         active: 1
         h_line: 1
 
@@ -430,7 +431,7 @@ resume:
         role: "Post-Doc"
         company: "Software Engineering Research Group, Delft University of Technology"
         text: "Exploring other ways to support software engineers. Gaining experience in co-supervising and international / industry collaborations."
-        active: 1
+        active: 0
         h_line: 1
 
       - year: "August - November 2023"
@@ -444,7 +445,7 @@ resume:
         role: "PhD Student"
         company: "Software Engineering Research Group, Delft University of Technology"
         text: "Generating tests for and with developers using test amplification and visualization. Part of the TestShift project, supervised by Andy Zaidman."
-        active: 1
+        active: 0
         h_line: 1
 
       - year: "2017 - 2019"
