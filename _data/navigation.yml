@@ -27,9 +27,17 @@ main:
     sections:
         - portfolio
 
+
+#students card
+  - title: "Students"
+    icon: "android-people"
+    slug: "students"
+    sections:
+        - students
+
 #service card
   - title: "Service"
-    icon: "android-people"
+    icon: "earth"
     slug: "service"
     sections:
         - academic-service

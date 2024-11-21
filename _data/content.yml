@@ -25,6 +25,7 @@ news:
       title: "News"
       icon: "speakerphone"
       items:
+        - label: "I'm hiring! If you're interested in developer-centric software engineering and creating cool test generation tools for developers, have a look at the <a href=\"https://careers.tudelft.nl/job/Delft-PhD-Position-Developer-centred-Just-in-Time-Test-Generation-2628-CD/808091502/\">vacancy</a> ☀️"
         - label: "I've started as an Assistant Professor at TU Delft. 😊"
         - label: "Our paper <a href=\"works/brandt-tse24\">\"Shaken, Not Stirred. How Developers Like Their Amplified Tests\"</a> was accepted at IEEE Transactions on Software Engineering 🙌🏼"
         - label: "Our paper <a href=\"works/brandt-icseseip24\">\"Mind the Gap: What Working With Developers on Fuzz Tests Taught Us About Coverage Gaps\"</a> was accepted at ICSE - Software Engineering in Practice 2024 🥳"
@@ -185,6 +186,47 @@ services:
 #       name: "Helen Floyd"
 #       subname: "Art Director"
 #       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+
+
+### Students [ news ]
+students:
+  title: "Service"
+  columns:
+    - type: "list" #skills progress type - default, dotted, circles, list
+      title: "I've had the joy of supervising these awesome students"
+      icon: "university"
+      items:
+        - label: "Roderick de Britto Heemskerk, Master Thesis on refined code coverage metrics with Mozilla"
+          year: "current"
+          active: 1
+        - label: "George Vegelien, Master Thesis on Flaky tests with Exact"
+          year: "current"
+          active: 1
+        - label: "Khalid El Haji, Master Thesis"
+          year: "2023"
+          active: 0
+        - label: "Danyao Wang, Master Thesis"
+          year: "2022"
+          active: 0
+        - label: "Nienke Nijkamp, Wessel Oosterbroek, George Vegelien, Swastik Agarwal, Bachelor Thesis"
+          year: "2021"
+          active: 0
+        - label: "Casper Boone, Master Thesis"
+          year: "2021"
+          active: 0
+
+# academic-service:
+#   title: "Students"
+#   experience:
+#     title: "Supervised Students"
+#     icon: "university"
+#     items:
+#       - year: "2024"
+#         institution: "ASE"
+#         text: "Artifact Evaluation Committee"
+#         h_line: 0
+  # education:
+
 
 ### Service [ resume ]
 academic-service:
