@@ -1,5 +1,5 @@
 ---
-title: Slides for the Software Engineering Primer for the Capstone Project of the AI Minor @ TU Delft 2022
+title: Software Engineering Primer for the Capstone Project of the AI Minor @ TU Delft
 category: Lecture
 category_slug: presentations
 layout: publication
