@@ -6,6 +6,7 @@ layout: publication
 slug: brandt-master-thesis
 type: content # video, music, photo
 image: assets/img/works/mt.png
+date: 2019-09-23
 links:
   - name: Full Thesis
     url: https://carolin-brandt.de/publications/master_thesis.pdf

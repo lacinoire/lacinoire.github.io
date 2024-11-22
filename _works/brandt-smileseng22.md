@@ -6,6 +6,7 @@ layout: publication
 slug: brandt-smileseng22
 type: content # video, music, photo
 image: assets/img/works/smileseng22.png
+date: 2022-09-23
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/smileseng_2022_abstract.pdf

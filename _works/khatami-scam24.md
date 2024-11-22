@@ -5,7 +5,8 @@ category_slug: peer-reviewed
 layout: publication
 slug: khatami-scam24
 type: content # video, music, photo
-image: assets/img/works/khatami-scam24.pdf
+image: assets/img/works/khatami-scam24.png
+date: 2024-09-23
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/khatami-scam24.pdf

@@ -6,6 +6,7 @@ layout: publication
 slug: brandt-ropes22
 type: content # video, music, photo
 image: assets/img/works/ropes22.png
+date: 2022-09-23
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/ropes_2022.pdf

@@ -6,6 +6,7 @@ layout: publication
 slug: boone-icpc22
 type: content # video, music, photo
 image: assets/img/works/testaxis_cut.png
+date: 2022-09-23
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/TestAxis_icpc22.pdf

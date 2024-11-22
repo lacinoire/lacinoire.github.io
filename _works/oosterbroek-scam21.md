@@ -6,6 +6,7 @@ layout: publication
 slug: oosterbroek-scam21
 type: content # video, music, photo
 image: assets/img/works/rrs.jpeg
+date: 2021-09-23
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/RS_paper.pdf

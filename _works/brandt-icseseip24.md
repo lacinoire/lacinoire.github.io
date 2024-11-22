@@ -6,6 +6,7 @@ layout: publication
 slug: brandt-icseseip24
 type: content # video, music, photo
 image: assets/img/works/moz-fuzz.png
+date: 2024-05-23
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/brandt-icseseip24.pdf

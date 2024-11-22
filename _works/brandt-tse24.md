@@ -6,6 +6,7 @@ layout: publication
 slug: brandt-tse24
 type: content # video, music, photo
 image: assets/img/works/brandt-tse24.png
+date: 2024-09-10
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/brandt-tse24.pdf

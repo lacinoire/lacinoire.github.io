@@ -6,6 +6,7 @@ layout: publication
 slug: nijkamp-scam21
 type: content # video, music, photo
 image: assets/img/works/natic.png
+date: 2021-09-23
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/NATIC_paper.pdf

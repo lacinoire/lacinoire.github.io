@@ -6,6 +6,7 @@ layout: publication
 slug: brandt-msr20
 type: content # video, music, photo
 image: assets/img/works/lc.png
+date: 2020-09-23
 links:
   - name: Full Publication / DOI
     url: https://doi.org/10.1145/3379597.3387485

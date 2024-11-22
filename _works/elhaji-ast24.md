@@ -6,6 +6,7 @@ layout: publication
 slug: elhaji-ast24
 type: content # video, music, photo
 image: assets/img/works/elhaji-ast24.png
+date: 2024-01-23
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/elhaji-ast24.pdf

@@ -6,6 +6,7 @@ layout: publication
 slug: the-art-of-generating-useful-tests
 type: content # video, music, photo
 image: assets/img/works/art-of-gen-useful-tests.png
+date: 2024-10-31
 links:
   - name: Slides
     url: https://carolin-brandt.de/publications/the-art-of-generating-useful-tests.pdf

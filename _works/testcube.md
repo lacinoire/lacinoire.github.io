@@ -6,6 +6,7 @@ layout: publication
 slug: testcube-tool
 type: content # video, music, photo
 image: assets/img/works/test-cube-logo.png
+date: 2020-09-23
 links:
   - name: Code on Github
     url: https://github.com/TestShiftProject/test-cube

@@ -20,7 +20,8 @@
 
 	<!-- content -->
 	<div class="row grid-items border-line-v">
-		{% for work in site.works %}
+		{% assign sorted = site.works | reverse %}
+		{% for work in sorted %}
 		
 		{% if work.type == 'photo' or work.type == '' %}
 		<!-- work item photo -->

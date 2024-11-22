@@ -6,6 +6,7 @@ layout: publication
 slug: brandt-bachelor-thesis
 type: content # video, music, photo
 image: assets/img/works/bt.png
+date: 2017-09-23
 links:
   - name: Full Thesis
     url: https://carolin-brandt.de/publications/bachelor_thesis.pdf
