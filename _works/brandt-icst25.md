@@ -6,7 +6,7 @@ layout: publication
 slug: brandt-icst25
 type: content # video, music, photo
 image: assets/img/works/brandt-icst25.png
-date: 2025-04-01
+date: 2025-01-23
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/brandt-icst25.pdf
