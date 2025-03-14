@@ -25,11 +25,13 @@ news:
       title: "News"
       icon: "speakerphone"
       items:
+        - label: "I'll present our TSE paper <a href=\"works/brandt-tse24\">\"Shaken, Not Stirred. How Developers Like Their Amplified Tests\"</a> at ICSE'25 in Ottawa. See you there!"
+        - label: "I'll be at ICST'25 in Napels and present <a href=\"works/brandt-icst25\">\"Towards Refined Code Coverage: A New Predictive Problem in Software Testing\"</a> together with <a href=\"https://www.uco.es/users/aramirez/en/index.html\">Aurora Ramírez</a> ☀️."
         - label: "I'm hiring! If you're interested in developer-centric software engineering and creating cool test generation tools for developers, have a look at the <a href=\"https://careers.tudelft.nl/job/Delft-PhD-Position-Developer-centred-Just-in-Time-Test-Generation-2628-CD/808091502/\">vacancy</a> ☀️"
         - label: "I've started as an Assistant Professor at TU Delft. 😊"
         - label: "Our paper <a href=\"works/brandt-tse24\">\"Shaken, Not Stirred. How Developers Like Their Amplified Tests\"</a> was accepted at IEEE Transactions on Software Engineering 🙌🏼"
-        - label: "Our paper <a href=\"works/brandt-icseseip24\">\"Mind the Gap: What Working With Developers on Fuzz Tests Taught Us About Coverage Gaps\"</a> was accepted at ICSE - Software Engineering in Practice 2024 🥳"
-        - label: "The paper of my master student Khalid <a href=\"works/elhaji-ast24\">\"Using GitHub Copilot for Test Generation in Python: An Empirical Study\"</a> was accepted at AST 2024! 💪🏼"
+        # - label: "Our paper <a href=\"works/brandt-icseseip24\">\"Mind the Gap: What Working With Developers on Fuzz Tests Taught Us About Coverage Gaps\"</a> was accepted at ICSE - Software Engineering in Practice 2024 🥳"
+        # - label: "The paper of my master student Khalid <a href=\"works/elhaji-ast24\">\"Using GitHub Copilot for Test Generation in Python: An Empirical Study\"</a> was accepted at AST 2024! 💪🏼"
 
         # - label: "I'm on the job market! Looking to stay in academia. If you have any positions that you think would fit (assistant professor or postdoc level), please come talk to me at ICSE or send me an <a href=\"mailto:c.e.brandt@tudelft.nl\">email</a>! 😄"
         # - label: "I visited SCAM'23 / ICSME'23 in Bogota and presented our paper <a href=\"publications/guided_test_amplification_SCAM_2023.pdf\">\"When to Let the Developer Guide: Trade-offs Between Open and Guided Test Amplification\"</a>."
@@ -53,28 +55,28 @@ news:
   #     value: "California, USA"
 
 ### Services [ services ]
-services:
-  title: "My Research Interests"
-  items:
-    - icon: "person"
-      name: "Developer Involvement"
-      text: "How do we use a developer's expertise in automated tools?"
-      h_line: 1
+# services:
+#   title: "My Research Interests"
+#   items:
+#     - icon: "person"
+#       name: "Developer Involvement"
+#       text: "How do we use a developer's expertise in automated tools?"
+#       h_line: 1
 
-    - icon: "laptop"
-      name: "Automatic Software Quality"
-      text: "How do we improve software with as little developer effort as possible?"
-      h_line: 1
+#     - icon: "laptop"
+#       name: "Automatic Software Quality"
+#       text: "How do we improve software with as little developer effort as possible?"
+#       h_line: 1
 
-    - icon: "image"
-      name: "Visualization"
-      text: "How do we effectively use visual communication in software engineering?"
-      h_line: 0
+#     - icon: "image"
+#       name: "Visualization"
+#       text: "How do we effectively use visual communication in software engineering?"
+#       h_line: 0
 
-    - icon: "search"
-      name: "Research Methods"
-      text: "How do we help SE researchers do rigorous, reproducible and impactful research?"
-      h_line: 0
+#     - icon: "search"
+#       name: "Research Methods"
+#       text: "How do we help SE researchers do rigorous, reproducible and impactful research?"
+#       h_line: 0
 
 ### Pricing [ pricing ]
 # pricing:
@@ -190,18 +192,26 @@ services:
 
 ### Students [ news ]
 students:
-  title: "Service"
   columns:
     - type: "list" #skills progress type - default, dotted, circles, list
-      title: "I've had the joy of supervising these awesome students"
+      title: "I've had the joy of supervising & advising these awesome students"
       icon: "university"
       items:
+        - label: "**Mark Swillus**, PhD candidate on Socio-technical enablers/inhibitors of software testing, [Website](https://mark.swillus.me/)"
+          year: "current"
+          active: 1
+        - label: "**Ali Khatami**, PhD candidate on Software Quality Analytics, [Website](https://akhatami.com/)"
+          year: "current"
+          active: 1
+        - label: "**Nada Mouman**, Master Thesis on helping developers identify issues in LLM-generated tests, [LinkedIn](https://www.linkedin.com/in/nada-mouman-5aaa02202/)"
+          year: "current"
+          active: 1
         - label: "**Roderick de Britto Heemskerk**, Master Thesis on refined code coverage metrics with Mozilla, [LinkedIn](https://www.linkedin.com/in/roderick-de-britto-heemskerk/)"
           year: "current"
           active: 1
-        - label: "**George Vegelien**, Master Thesis on Flaky tests with Exact, [LinkedIn](https://www.linkedin.com/in/george-vegelien/)"
-          year: "current"
-          active: 1
+        - label: "**George Vegelien**, Master Thesis on Flaky tests with Exact, [LinkedIn](https://www.linkedin.com/in/george-vegelien/), [thesis](https://repository.tudelft.nl/record/uuid:ad279f6c-fbc6-4104-90b7-0a5b9e1f0088)"
+          year: "2025"
+          active: 0
         - label: "**Khalid El Haji**, Master Thesis on Test Generation Using GitHub Copilot, [LinkedIn](https://www.linkedin.com/in/khalidelhaji/), [thesis](https://resolver.tudelft.nl/uuid:57973043-efa8-4534-9afe-c64287c22d64), also published as a [conference paper](https://carolin-brandt.de/works/elhaji-ast24)"
           year: "2023"
           active: 0
@@ -213,6 +223,24 @@ students:
           active: 0
         - label: "**Casper Boone**, Master Thesis on Save Time Fixing Broken CI Builds Without Leaving Your IDE, [LinkedIn](https://www.linkedin.com/in/casperboone/), [thesis](https://resolver.tudelft.nl/uuid:f8375d5f-3bbd-4559-863b-6951e9d6bab0), also published as a [conference paper](https://carolin-brandt.de/works/boone-icpc22)"
           year: "2021"
+          active: 0
+
+#### Teaching [students]
+teaching:
+  title: "Service"
+  columns:
+    - type: "list" #skills progress type - default, dotted, circles, list
+      title: "I'm teaching the following courses"
+      icon: "android-clipboard"
+      items:
+        - label: "**Sustainable Software Engineering**, MSc CS + MSc DSAIT, 1st year Q3, with [Luis Cruz](https://luiscruz.github.io/), [Course Website](https://luiscruz.github.io/course_sustainableSE/2025/), [Studyguide CS4575](https://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=70145)"
+          year: "current"
+          active: 1
+        - label: "**Software Quality and Testing**, BSc CSE, 1st year Q4, with [Frank Mulder](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/computer-science-engineering-teaching-team/people/frank-mulder), [Studyguide CSE1110](https://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=67555)"
+          year: "current"
+          active: 1
+        - label: "**Software Engineering Methods**, CS Minor Q1, with [Mitchell Olsthoorn](), [Studyguide TI3115TU](https://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=68616)"
+          year: "2024/25"
           active: 0
 
 # academic-service:
@@ -235,6 +263,21 @@ academic-service:
     title: "Academic"
     icon: "university"
     items:
+      - year: "2025"
+        institution: "ICSME"
+        text: "Program Committee"
+        h_line: 0
+
+      - year: "2025"
+        institution: "EASE"
+        text: "Program Committee"
+        h_line: 0
+
+      - year: "2025"
+        institution: "ICPC"
+        text: "Program Committee"
+        h_line: 0
+
       - year: "2024"
         institution: "ASE"
         text: "Artifact Evaluation Committee"
@@ -245,7 +288,7 @@ academic-service:
         text: "PC Technical Track, PC Data and Tool Showcase"
         h_line: 0
 
-      - year: "2024"
+      - year: "2024, 2025"
         institution: "VST"
         text: "Program Committee"
         h_line: 0

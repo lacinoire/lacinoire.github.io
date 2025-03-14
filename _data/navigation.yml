@@ -6,6 +6,7 @@
 ### param "slug" - Menu item url slug
 ### param "sections" - list of sections what will be show of each card, all prebuild sections name see in documentations
 
+### icons: https://ionic.io/ionicons/v2 css\f codes: https://ionic.io/ionicons/v2/cheatsheet.html
 main:
   #about card
   - title: "About"
@@ -14,7 +15,7 @@ main:
     sections:
         - about
         - news
-        - services
+        # - services
         # - pricing
         # - facts
         # - clients
@@ -35,8 +36,16 @@ main:
     sections:
         - students
 
+
 #service card
-  - title: "Service"
+  - title: "Teaching"
+    icon: "android-clipboard"
+    slug: "teaching"
+    sections:
+        - teaching
+
+#service card
+  - title: "Academic Service"
     icon: "earth"
     slug: "service"
     sections:
