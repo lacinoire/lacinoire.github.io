@@ -12,8 +12,8 @@ links:
     url: https://carolin-brandt.de/publications/brandt-icst25.pdf
   # - name: DOI
   #   url: https://doi.org/10.1145/3639477.3639721
-  # - name: Presentation Slides
-  #   url: https://carolin-brandt.de/publications/brandt-icseseip24-slides.pdf
+  - name: Presentation Slides
+    url: https://carolin-brandt.de/publications/brandt-icst25-slides.pdf
   - name: Replication Package
     url: https://anonymous.4open.science/r/understanding-covered-code-4950
 ---

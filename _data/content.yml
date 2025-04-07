@@ -27,7 +27,7 @@ news:
       items:
         - label: "I'll present our TSE paper <a href=\"works/brandt-tse24\">\"Shaken, Not Stirred. How Developers Like Their Amplified Tests\"</a> at ICSE'25 in Ottawa. See you there!"
         - label: "I'll be at ICST'25 in Napels and present <a href=\"works/brandt-icst25\">\"Towards Refined Code Coverage: A New Predictive Problem in Software Testing\"</a> together with <a href=\"https://www.uco.es/users/aramirez/en/index.html\">Aurora Ramírez</a> ☀️."
-        - label: "I'm hiring! If you're interested in developer-centric software engineering and creating cool test generation tools for developers, have a look at the <a href=\"https://careers.tudelft.nl/job/Delft-PhD-Position-Developer-centred-Just-in-Time-Test-Generation-2628-CD/808091502/\">vacancy</a> ☀️"
+        # - label: "I'm hiring! If you're interested in developer-centric software engineering and creating cool test generation tools for developers, have a look at the <a href=\"https://careers.tudelft.nl/job/Delft-PhD-Position-Developer-centred-Just-in-Time-Test-Generation-2628-CD/808091502/\">vacancy</a> ☀️"
         - label: "I've started as an Assistant Professor at TU Delft. 😊"
         - label: "Our paper <a href=\"works/brandt-tse24\">\"Shaken, Not Stirred. How Developers Like Their Amplified Tests\"</a> was accepted at IEEE Transactions on Software Engineering 🙌🏼"
         # - label: "Our paper <a href=\"works/brandt-icseseip24\">\"Mind the Gap: What Working With Developers on Fuzz Tests Taught Us About Coverage Gaps\"</a> was accepted at ICSE - Software Engineering in Practice 2024 🥳"
