@@ -12,7 +12,7 @@ about:
         <p>
           <strong>Hello! I’m Caro 🐳</strong>
           <br>I'm an Assistant Professor at the <a href=\"https://se.ewi.tudelft.nl/\">Software Engineering Research Group</a> of <a href=\"https://www.tudelft.nl/\">TU Delft</a>,
-          where I lead the research line on <a href=\"https://se.ewi.tudelft.nl/research-lines/human-and-developer-centered-se/\">Human- and Developer-centered Software Engineering</a>.
+          where I lead the research line on <a href=\"https://se.ewi.tudelft.nl/research-lines/human-and-developer-centered-se/\">Human- and Developer-centered Software Engineering</a>, and manage the <a href=\"https://se.ewi.tudelft.nl/fuse-lab/\">FUSE lab</a>.
           My research focuses on embedding the future users of software and automation tools more closely and responsibly into the software development process.
           In my <a href=\"https://carolin-brandt.de/works/brandt-phd-thesis\">PhD</a> with my advisor <a href=\"https://azaidman.github.io/\">Andy Zaidman</a>, I investigated how to let automatic test amplification tools collaborate with developers
           to generate test cases that they can use to improve their test suites. 😊
@@ -197,18 +197,33 @@ students:
       title: "I've had the joy of supervising & advising these awesome students"
       icon: "university"
       items:
+        - label: "**Mahdiyeh Barzegar**, PhD candidate on Developer-Centered Just-In-Time Test Generation, [LinkedIn](https://www.linkedin.com/in/mahdiyeh-barzegar/)"
+          year: "current"
+          active: 1
         - label: "**Mark Swillus**, PhD candidate on Socio-technical enablers/inhibitors of software testing, [Website](https://mark.swillus.me/)"
           year: "current"
           active: 1
         - label: "**Ali Khatami**, PhD candidate on Software Quality Analytics, [Website](https://akhatami.com/)"
           year: "current"
           active: 1
-        - label: "**Nada Mouman**, Master Thesis on helping developers identify issues in LLM-generated tests, [LinkedIn](https://www.linkedin.com/in/nada-mouman-5aaa02202/)"
+        - label: "**Gopal-Raj Panchu**, Master Thesis on advice for legacy systems modernization, together with the [AcICT](https://www.adviescollegeicttoetsing.nl/), [LinkedIn](https://www.linkedin.com/in/gopal-raj-panchu-764b09151/)"
+          year: "current"
+          active: 1
+        - label: "**Mirko Boon**, Master Thesis on code characteristics and test coverage"
           year: "current"
           active: 1
         - label: "**Roderick de Britto Heemskerk**, Master Thesis on refined code coverage metrics with Mozilla, [LinkedIn](https://www.linkedin.com/in/roderick-de-britto-heemskerk/)"
           year: "current"
           active: 1
+        - label: "**Sophie van der Linden, Mate Oszkó, Rafa Petouris Rodriguez de Paterna, Rohan Lambert**, Bachelor thesis on sustainable CI/CD. Co-supervised with [Xutong Liu](https://liu906.github.io/)"
+          year: "current"
+          active: 1
+        - label: "**Nada Mouman**, Master Thesis on helping developers identify issues in LLM-generated tests, [LinkedIn](https://www.linkedin.com/in/nada-mouman-5aaa02202/), [thesis](https://resolver.tudelft.nl/uuid:a74cd9ea-76ef-4008-8cc5-20ed6ecd77ff)"
+          year: "2025"
+          active: 0
+        - label: "**Ruben van Seventer, Alexander Nitters, Leo Mangold, Maciej Mejer, Elias Hoste**, Bachelor Thesis on optimizing and benchmarking structural diff algorithms with HyperAST. Co-supervised with [Quentin Le Dilavrec](https://perso.eleves.ens-rennes.fr/people/quentin.le-dilavrec/home.html)"
+          year: "2025"
+          active: 0
         - label: "**George Vegelien**, Master Thesis on Flaky tests with Exact, [LinkedIn](https://www.linkedin.com/in/george-vegelien/), [thesis](https://repository.tudelft.nl/record/uuid:ad279f6c-fbc6-4104-90b7-0a5b9e1f0088)"
           year: "2025"
           active: 0
