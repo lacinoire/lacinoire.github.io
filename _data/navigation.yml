@@ -38,11 +38,12 @@ main:
 
 
 #service card
-  - title: "Teaching"
+  - title: "Teaching + Awards"
     icon: "android-clipboard"
     slug: "teaching"
     sections:
         - teaching
+        - awards
 
 #service card
   - title: "Academic Service"

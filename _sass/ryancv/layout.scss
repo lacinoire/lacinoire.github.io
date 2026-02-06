@@ -386,6 +386,7 @@
 	width: 380px;
 	height: 100%;
 	z-index: 11;
+	max-height: 674px;
 	@include border-radius(4px);
 
 	&:before {

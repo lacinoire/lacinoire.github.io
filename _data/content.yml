@@ -194,30 +194,42 @@ news:
 students:
   columns:
     - type: "list" #skills progress type - default, dotted, circles, list
-      title: "I've had the joy of supervising & advising these awesome students"
+      title: "I've had the joy of advising & supervising these awesome students"
       icon: "university"
       items:
-        - label: "**Mahdiyeh Barzegar**, PhD candidate on Developer-Centered Just-In-Time Test Generation, [LinkedIn](https://www.linkedin.com/in/mahdiyeh-barzegar/)"
+        - label: "**Mahdiyeh Barzegar**, PhD candidate on Developer-Centered Just-In-Time Test Generation, [LinkedIn](https://www.linkedin.com/in/mahdiyeh-barzegar/). Co-supervised with [Arie van Deursen](https://avandeursen.com/about/)."
           year: "current"
           active: 1
-        - label: "**Mark Swillus**, PhD candidate on Socio-technical enablers/inhibitors of software testing, [Website](https://mark.swillus.me/)"
+        - label: "**Mark Swillus**, PhD candidate on Socio-technical enablers/inhibitors of software testing, [Website](https://mark.swillus.me/). Co-supervised with [Andy Zaidman](https://azaidman.github.io/)."
           year: "current"
           active: 1
-        - label: "**Ali Khatami**, PhD candidate on Software Quality Analytics, [Website](https://akhatami.com/)"
+        - label: "**Ali Khatami**, PhD candidate on Software Quality Analytics, [Website](https://akhatami.com/). Co-supervised with [Andy Zaidman](https://azaidman.github.io/)."
           year: "current"
           active: 1
         - label: "**Gopal-Raj Panchu**, Master Thesis on advice for legacy systems modernization, together with the [AcICT](https://www.adviescollegeicttoetsing.nl/), [LinkedIn](https://www.linkedin.com/in/gopal-raj-panchu-764b09151/)"
           year: "current"
           active: 1
-        - label: "**Mirko Boon**, Master Thesis on code characteristics and test coverage"
+        - label: "**Mirko Boon**, Master Thesis on predicting test coverage in PR patches, [LinkedIn](https://www.linkedin.com/in/mirko-boon-774458243/)"
           year: "current"
           active: 1
-        - label: "**Roderick de Britto Heemskerk**, Master Thesis on refined code coverage metrics with Mozilla, [LinkedIn](https://www.linkedin.com/in/roderick-de-britto-heemskerk/)"
+        - label: "**Ilma Jaganjac**, Master Thesis on AI integration cost tracking within the IDE, [LinkedIn](https://www.linkedin.com/in/ilma-jaganjac/)"
           year: "current"
           active: 1
+        - label: "**Louise Delpierre Stasser**, Visiting Master Thesis on LLM-developer collaboration to write onboarding documentation. Co-supervised with [SNAIL Namur and Xavier Devroey](https://snail.info.unamur.be/project/msc-louise-delpierrestasser/)"
+          year: "current"
+          active: 1
+        - label: "**Afonso Nobre**, Bachelor Honors Project on test quality feedback in Andy for SQT. Co-supervised with [Frank Mulder](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/computer-science-engineering-teaching-team/people/frank-mulder)"
+          year: "current"
+          active: 1
+        - label: "**Roderick de Britto Heemskerk**, Master Thesis on refined code coverage metrics with Mozilla, [LinkedIn](https://www.linkedin.com/in/roderick-de-britto-heemskerk/), [thesis](https://resolver.tudelft.nl/uuid:ec89c876-1946-444c-83f8-e25297e6287e)"
+          year: "2025"
+          active: 0
         - label: "**Sophie van der Linden, Mate Oszkó, Rafa Petouris Rodriguez de Paterna, Rohan Lambert**, Bachelor thesis on sustainable CI/CD. Co-supervised with [Xutong Liu](https://liu906.github.io/)"
-          year: "current"
-          active: 1
+          year: "2026"
+          active: 0
+        - label: "**İdil Işıl Yıldırım**, Internship student on evaluating AI-generated tests through scenario coverage, [LinkedIn](https://www.linkedin.com/in/idilisil/. Co-supervised with [Baris Ardic](https://barisardic.github.io/about/)"
+          year: "2025"
+          active: 0
         - label: "**Nada Mouman**, Master Thesis on helping developers identify issues in LLM-generated tests, [LinkedIn](https://www.linkedin.com/in/nada-mouman-5aaa02202/), [thesis](https://resolver.tudelft.nl/uuid:a74cd9ea-76ef-4008-8cc5-20ed6ecd77ff)"
           year: "2025"
           active: 0
@@ -248,15 +260,49 @@ teaching:
       title: "I'm teaching the following courses"
       icon: "android-clipboard"
       items:
-        - label: "**Sustainable Software Engineering**, MSc CS + MSc DSAIT, 1st year Q3, with [Luis Cruz](https://luiscruz.github.io/), [Course Website](https://luiscruz.github.io/course_sustainableSE/2025/), [Studyguide CS4575](https://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=70145)"
+        - label: "**Sustainable Software Engineering**, MSc CS + MSc DSAIT, 1st year Q3, with [Luis Cruz](https://luiscruz.github.io/) and [Enrique Barba Roque](https://ebarba.com/), [Course Website](https://luiscruz.github.io/course_sustainableSE/), [Studyguide CS4575](https://www.studiegids.tudelft.nl/courses/study-guide/educations/14777)"
           year: "current"
           active: 1
-        - label: "**Software Quality and Testing**, BSc CSE, 1st year Q4, with [Frank Mulder](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/computer-science-engineering-teaching-team/people/frank-mulder), [Studyguide CSE1110](https://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=67555)"
-          year: "current"
+        - label: "**Software Quality and Testing**, BSc CSE, 1st year Q4, with [Frank Mulder](https://www.tudelft.nl/ewi/over-de-faculteit/afdelingen/software-technology/computer-science-engineering-teaching-team/people/frank-mulder), [Studyguide CSE1110](https://www.studiegids.tudelft.nl/courses/study-guide/educations/14249)"
+          year: "2024-26"
           active: 1
+        - label: "**Collaborative Development Project**, BSc CSE, 1st year Q4, from 2026/27 onwards"
+          year: "2026/27 onwards"
+          active: 0
         - label: "**Software Engineering Methods**, CS Minor Q1, with [Mitchell Olsthoorn](), [Studyguide TI3115TU](https://www.studiegids.tudelft.nl/a101_displayCourse.do?course_id=68616)"
           year: "2024/25"
           active: 0
+
+awards:
+  title: "Awards"
+  columns:
+    - type: "list" #skills progress type - default, dotted, circles, list
+      title: "Awards"
+      icon: "ribbon-b"
+      items:
+        - label: "Distinguished Reviewer Award at ICSME 2025"
+          value: "0"
+
+        - label: "Distinguished Reviewer Award at ICPC 2025"
+          value: "0"
+
+        - label: "Distinguished Reviewer Award at MSR 2024"
+          value: "0"
+
+        - label: "Distinguished Reviewer Award at MSR 2023"
+          value: "0"
+
+        - label: "Best \"New Ideas and Work in Progress\" Paper / Presentation at the SMILESENG Summer School in Cordoba 2022"
+          value: "0"
+
+        - label: "Best Artifact Award at VISSOFT 2022"
+          value: "0"
+
+        - label: "2nd Place Poster Competition at Alice & Eve 2022"
+          value: "0"
+
+        - label: "International Women in Technology Scholarship 2021 from Zonta"
+          value: "0"
 
 # academic-service:
 #   title: "Students"
@@ -278,6 +324,21 @@ academic-service:
     title: "Academic"
     icon: "university"
     items:
+      - year: "2027"
+        institution: "REFSQ"
+        text: "Poster & Tools Co-Chair"
+        h_line: 0
+
+      - year: "2026"
+        institution: "SCAM"
+        text: "PC Co-Chair"
+        h_line: 0
+
+      - year: "2026"
+        institution: "ICSME"
+        text: "Program Committee"
+        h_line: 0
+
       - year: "2025"
         institution: "ICSME"
         text: "Program Committee"
@@ -410,6 +471,12 @@ skills:
       title: "Prizes"
       icon: "ribbon-b"
       items:
+        - label: "Distinguished Reviewer Award </br> at ICSME 2025"
+          value: "0"
+
+        - label: "Distinguished Reviewer Award </br> at ICPC 2025"
+          value: "0"
+
         - label: "Distinguished Reviewer Award </br> at MSR 2024"
           value: "0"
 
@@ -662,8 +729,8 @@ contacts_info:
     - label: "LinkedIn"
       value: "https://www.linkedin.com/in/carolin-brandt/"
 
-    - label: "Twitter"
-      value: "@laci_noire"
+    # - label: "Twitter"
+    #   value: "@laci_noire"
 
     - label: "Office"
       value: "1.W.880, Building 28"

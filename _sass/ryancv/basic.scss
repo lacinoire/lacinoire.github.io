@@ -96,7 +96,7 @@ body {
 	width: 100%;
 	height: 84vh;
 	max-width: 1268px;
-	max-height: 674px;
+	// max-height: 674px;
 	@include transform(translateX(0px));
 	@include transition(all 0.4s ease 0s);
 

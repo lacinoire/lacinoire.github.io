@@ -31,9 +31,9 @@ main:
     - title: "Blog"
       icon: "fas fa-pencil-alt"
       url: "https://blog.carolin-brandt.de"
-    - title: "Twitter"
-      icon: "fab fa-twitter"
-      url: "https://twitter.com/laci_noire"
+    # - title: "Twitter"
+    #   icon: "fab fa-twitter"
+    #   url: "https://twitter.com/laci_noire"
   buttons:
     - title: "Write me!"
       icon: ""
