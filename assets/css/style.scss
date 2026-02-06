@@ -2,8 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-@import
-  "ryancv/setting",
-  "ryancv/basic",
-  "ryancv/layout",
-  "ryancv/blogs";
+@use "ryancv/setting" as *;
+@use "ryancv/basic" as *;
+@use "ryancv/layout" as *;
+@use "ryancv/blogs" as *;

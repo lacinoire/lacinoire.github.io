@@ -1,4 +1,6 @@
-﻿/**
+@use "sass:color";
+@use "setting" as *;
+/**
 *   RyanCV - Resume/CV/vCard Theme (Jekyll)
 *   Version: 1.0
 *   Author: beshleyua
@@ -1229,8 +1231,8 @@ input[type="file"] {
 
 .background.gradient {
   background: rgba($active-color, 0.7);
-  background: -webkit-linear-gradient(top left, desaturate(darken($active-color, 10%), 25%) 0%, $active-color 100%);
-  background: linear-gradient(to bottom right, desaturate(darken($active-color, 10%), 25%) 0%, $active-color 100%);
+  background: -webkit-linear-gradient(top left, color.adjust(color.adjust($active-color, $lightness: -10%), $saturation: -25%) 0%, $active-color 100%);
+  background: linear-gradient(to bottom right, color.adjust(color.adjust($active-color, $lightness: -10%), $saturation: -25%) 0%, $active-color 100%);
   position: fixed;
   overflow: hidden;
   top: 0;
