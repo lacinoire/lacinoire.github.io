@@ -1,4 +1,5 @@
 ---
+layout: publication
 title: "Addressing Test Flakiness: Practical Approaches in a Database-Reliant Industrial System"
 category: ICSE-SEIP'26
 category_slug: peer-reviewed
@@ -6,7 +7,7 @@ layout: publication
 slug: vegelien-icseseip26
 type: content # video, music, photo
 image: assets/img/works/vegelien-icseseip26.png
-date: 2026-04-23
+date: 2026-02-23
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/vegelien-icseseip26.pdf
