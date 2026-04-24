@@ -7,6 +7,7 @@ slug: khatami-scam24
 type: content # video, music, photo
 image: assets/img/works/khatami-scam24.png
 date: 2024-09-23
+authors: "Ali Khatami · Carolin Brandt · Andy Zaidman"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/khatami-scam24.pdf
@@ -14,8 +15,6 @@ links:
     url: https://drive.google.com/file/d/1ZiXGRMzfHxszokLVm5oPOWbUPcljMDyh/view?usp=sharing
     url: https://zenodo.org/records/10961021
 ---
-
-Ali Khatami · Carolin Brandt · Andy Zaidman
 
 Software quality is crucial, but previous research showed that developers often lack awareness about QA practices in their projects. We aimed to address this gap by creating a dashboard that provides insights into various QA activities.
 

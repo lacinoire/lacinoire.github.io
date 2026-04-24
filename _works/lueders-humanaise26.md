@@ -7,6 +7,7 @@ slug: lueders-humanaise26
 type: content # video, music, photo
 image: assets/img/works/lueders-humanaise26.png
 date: 2026-03-23
+authors: "Clara Marie Lüders · Olaf Krużycki · Carolin Brandt"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/lueders-humanaise26.pdf
@@ -19,8 +20,6 @@ links:
   # - name: Khalid's Master Thesis
   #   url: https://repository.tudelft.nl/islandora/object/uuid:57973043-efa8-4534-9afe-c64287c22d64
 ---
-
-Clara Marie Lüders · Olaf Krużycki · Carolin Brandt
 
 In this paper we conceptualize the idea of competence debt, created by unreflected use of generative AI. We sketch how competence debt is created and reinforced through three loops and infer recommendations for organizations on how to mitigate it.
 

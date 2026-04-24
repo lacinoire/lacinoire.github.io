@@ -7,6 +7,7 @@ slug: re-pm-capstone-ai-minor-tud
 type: content # video, music, photo
 image: assets/img/works/re-for-capstone.png
 date: 2022-10-23
+authors: "Carolin Brandt"
 links:
   - name: Slides
     url: https://carolin-brandt.de/publications/RE+PMforCapstone.pdf

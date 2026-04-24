@@ -7,6 +7,7 @@ slug: brandt-aliceandeve22-ictopen23
 type: content # video, music, photo
 image: assets/img/works/poster-ICTOpen23.png
 date: 2022-09-23
+authors: "Carolin Brandt"
 links:
   - name: Alice and Eve Version
     url: https://carolin-brandt.de/publications/poster-aliceandeve22.pdf

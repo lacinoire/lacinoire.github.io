@@ -7,6 +7,7 @@ slug: bouraffa-ease25
 type: content # video, music, photo
 image: assets/img/works/bouraffa-ease25.png
 date: 2025-10-23
+authors: "Abir Bouraffa · Carolin Brandt · Andy Zaidman · Walid Maalej"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/bouraffa-ease25.pdf
@@ -17,8 +18,6 @@ links:
   # - name: Replication Package
   #   url: https://zenodo.org/doi/10.5281/zenodo.10470823
 ---
-
-Abir Bouraffa · Carolin Brandt · Andy Zaidman · Walid Maalej
 
 In this paper we mine the first code review round in pull requests to understand whether we can identify developers that follow meaningful patterns.
 

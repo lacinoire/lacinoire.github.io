@@ -7,6 +7,7 @@ slug: brandt-tse24
 type: content # video, music, photo
 image: assets/img/works/brandt-tse24.png
 date: 2024-09-10
+authors: "Carolin Brandt · Ali Khatami · Mairieli Wessel · Andy Zaidman"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/brandt-tse24.pdf
@@ -19,8 +20,6 @@ links:
   - name: Poster
     url: https://carolin-brandt.de/works/brandt-aliceandeve22-ictopen23
 ---
-
-Carolin Brandt · Ali Khatami · Mairieli Wessel · Andy Zaidman
 
 In this paper we conduct a large-scale open source contribution study, submitting pull requests with amplified tests to Java projects on GitHub. We analyze the feedback from the maintainers, as well as the preparations we needed to do to prepare the amplified tests for the pull requests. Based on this we collect guidelines on what developers can expect to change in amplified tests before including them in their test suite. Part of this are very helpful changes that are based on the developer's understanding of the code base and their software project, leading us to call for more support for developers to understanding amplified tests instead of focusing on further automation.
 

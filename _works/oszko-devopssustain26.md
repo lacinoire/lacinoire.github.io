@@ -7,6 +7,7 @@ slug: oszko-devopssustain26
 type: content
 image: assets/img/works/oszko-devopssustain26.png
 date: 2026-04-24
+authors: "Máté Oszkó · Xutong Liu · Andy Zaidman · Carolin Brandt"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/oszko-devopssustain26.pdf
@@ -17,8 +18,6 @@ links:
   # - name: DOI
   #   url: https://doi.org/...
 ---
-
-Máté Oszkó · Xutong Liu · Andy Zaidman · Carolin Brandt
 
 ### Abstract
 Continuous integration pipelines execute automated tests on ev-

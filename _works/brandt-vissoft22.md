@@ -7,6 +7,7 @@ slug: brandt-vissoft22
 type: content # video, music, photo
 image: assets/img/works/tig.png
 date: 2022-09-23
+authors: "Carolin Brandt · Andy Zaidman"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/TIG_paper_VISSOFT_2022.pdf
@@ -15,8 +16,6 @@ links:
   - name: Replication Package
     url: https://zenodo.org/record/6644723
 ---
-
-Carolin Brandt · Andy Zaidman
 
 In this paper we took a look at how we should build visualizations that let developers compare one test case to the rest of a test suite.
 

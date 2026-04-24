@@ -1,12 +1,13 @@
 ---
 title: "The Qualitative Factor in Software Testing: A Systematic Mapping Study of Qualitative Methods"
-category: JSS'25
+category: Journal of Systems and Software
 category_slug: peer-reviewed
 layout: publication
 slug: ardic-jss25
 type: content # video, music, photo
 image: assets/img/works/ardic-jss25.png
 date: 2025-09-23
+authors: "Baris Ardic · Carolin Brandt · Ali Khatami · Mark Swillus · Andy Zaidman"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/ardic-jss25.pdf
@@ -17,8 +18,6 @@ links:
   # - name: Replication Package
   #   url: https://zenodo.org/doi/10.5281/zenodo.10470823
 ---
-
-Baris Ardic · Carolin Brandt · Ali Khatami · Mark Swillus · Andy Zaidman
 
 In this paper we surveyed literature that uses qualitative methods in software testing, showing how they span over the different research topics and uncovering areas that are currently undercovered by qualitative research.
 

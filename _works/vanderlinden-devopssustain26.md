@@ -7,6 +7,7 @@ slug: vanderlinden-devopssustain26
 type: content
 image: assets/img/works/vanderlinden-devopssustain26.png
 date: 2026-04-24
+authors: "Sophie van der Linden · Xutong Liu · Andy Zaidman · Carolin Brandt"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/vanderlinden-devopssustain26.pdf
@@ -17,8 +18,6 @@ links:
   # - name: DOI
   #   url: https://doi.org/...
 ---
-
-Sophie van der Linden · Xutong Liu · Andy Zaidman · Carolin Brandt
 
 ### Abstract
 Static analysis tools are commonly used in continuous integration

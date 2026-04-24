@@ -7,6 +7,7 @@ slug: boone-icpc22
 type: content # video, music, photo
 image: assets/img/works/testaxis_cut.png
 date: 2022-09-23
+authors: "Casper Boone · Carolin Brandt · Andy Zaidman"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/TestAxis_icpc22.pdf
@@ -21,8 +22,6 @@ links:
   - name: Paper DOI
     url: https://doi.org/10.1145/3524610.3527908
 ---
-
-Casper Boone · Carolin Brandt · Andy Zaidman
 
 This paper discusses a plugin that brings information from the CI to the developer's IDE to help them fix failing tests faster.
 It is based on Casper Boone's excellent Master Thesis, who I had the pleasure to supervise in 2020/21.

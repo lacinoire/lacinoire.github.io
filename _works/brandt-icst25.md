@@ -7,6 +7,7 @@ slug: brandt-icst25
 type: content # video, music, photo
 image: assets/img/works/brandt-icst25.png
 date: 2025-01-23
+authors: "Carolin Brandt · Aurora Ramírez"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/brandt-icst25.pdf
@@ -17,8 +18,6 @@ links:
   - name: Replication Package
     url: https://anonymous.4open.science/r/understanding-covered-code-4950
 ---
-
-Carolin Brandt · Aurora Ramírez
 
 This paper introduces a novel way to look at code coverage in software testing: can we predict it based on the code?
 Our idea is to learn from existing code coverage in open source projects what characterizes code that developers find it worth to cover with tests.

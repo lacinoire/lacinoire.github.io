@@ -227,7 +227,7 @@ students:
         - label: "**Sophie van der Linden, Mate Oszkó, Rafa Petouris Rodriguez de Paterna, Rohan Lambert**, Bachelor thesis on sustainable CI/CD. Co-supervised with [Xutong Liu](https://liu906.github.io/)"
           year: "2026"
           active: 0
-        - label: "**İdil Işıl Yıldırım**, Internship student on evaluating AI-generated tests through scenario coverage, [LinkedIn](https://www.linkedin.com/in/idilisil/. Co-supervised with [Baris Ardic](https://barisardic.github.io/about/)"
+        - label: "**İdil Işıl Yıldırım**, Internship student on evaluating AI-generated tests through scenario coverage, [LinkedIn](https://www.linkedin.com/in/idilisil/). Co-supervised with [Baris Ardic](https://barisardic.github.io/about/)"
           year: "2025"
           active: 0
         - label: "**Nada Mouman**, Master Thesis on helping developers identify issues in LLM-generated tests, [LinkedIn](https://www.linkedin.com/in/nada-mouman-5aaa02202/), [thesis](https://resolver.tudelft.nl/uuid:a74cd9ea-76ef-4008-8cc5-20ed6ecd77ff)"

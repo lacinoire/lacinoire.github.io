@@ -7,12 +7,11 @@ slug: oosterbroek-scam21
 type: content # video, music, photo
 image: assets/img/works/rrs.jpeg
 date: 2021-09-23
+authors: "Wessel Oosterbroek · Carolin Brandt · Andy Zaidman"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/RS_paper.pdf
 ---
-
-Wessel Oosterbroek · Carolin Brandt · Andy Zaidman
 
 This paper proposes minimization approach for amplified test cases based on first drastically then step by step more conservatively removing statements while checking that the improvement in mutation score remains the same.
 

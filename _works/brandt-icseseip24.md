@@ -7,6 +7,7 @@ slug: brandt-icseseip24
 type: content # video, music, photo
 image: assets/img/works/moz-fuzz.png
 date: 2024-05-23
+authors: "Carolin Brandt · Marco Castelluccio · Christian Holler · Jason Kratzer · Andy Zaidman · Alberto Bacchelli"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/brandt-icseseip24.pdf
@@ -17,8 +18,6 @@ links:
   - name: Replication Package
     url: https://zenodo.org/doi/10.5281/zenodo.10470823
 ---
-
-Carolin Brandt · Marco Castelluccio · Christian Holler · Jason Kratzer · Andy Zaidman · Alberto Bacchelli
 
 This paper is a collaboration with Mozilla, where we try out whether we can use fuzzers to automatically generate partial input-tests that developers then complete into full functional tests with assertions.
 Inspired by the feedback from developers on the initial Bugzilla reports we submitted, we then dive deeper into which kind of coverage gaps are actually relevant for developers to close.

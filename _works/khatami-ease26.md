@@ -7,6 +7,7 @@ slug: khatami-ease26
 type: content
 image: assets/img/works/khatami-ease26.png
 date: 2026-04-24
+authors: "Ali Khatami · Carolin Brandt · Andy Zaidman"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/khatami-ease26.pdf
@@ -17,8 +18,6 @@ links:
   # - name: DOI
   #   url: https://doi.org/...
 ---
-
-Ali Khatami · Carolin Brandt · Andy Zaidman
 
 ### Abstract
 Continuous Integration and Continuous Deployment (CI/CD) have

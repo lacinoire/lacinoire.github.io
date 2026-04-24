@@ -8,6 +8,7 @@ slug: vegelien-icseseip26
 type: content # video, music, photo
 image: assets/img/works/vegelien-icseseip26.png
 date: 2026-02-23
+authors: "George Vegelien · Carolin Brandt · Bas Graaf · Arie van Deursen"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/vegelien-icseseip26.pdf
@@ -18,8 +19,6 @@ links:
   # - name: Replication Package
   #   url: https://zenodo.org/doi/10.5281/zenodo.10470823
 ---
-
-George Vegelien · Carolin Brandt · Bas Graaf · Arie van Deursen
 
 This paper is a collaboration with Exact that resulted from George's master thesis. We looked into the test flakiness in one of Exact's systems, highlighting how important meaningful measurement and communication both with the engineers and with management is to address test flakiness.
 

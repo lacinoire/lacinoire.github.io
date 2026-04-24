@@ -7,6 +7,7 @@ slug: brandt-phd-thesis
 type: content # video, music, photo
 image: assets/img/works/brandt-phd-thesis.png
 date: 2024-07-23
+authors: "Carolin Brandt"
 links:
   - name: Thesis
     url: https://carolin-brandt.de/publications/brandt-phd-thesis.pdf

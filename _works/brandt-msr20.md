@@ -7,14 +7,13 @@ slug: brandt-msr20
 type: content # video, music, photo
 image: assets/img/works/lc.png
 date: 2020-09-23
+authors: "Carolin Brandt · Annibale Panichella · Andy Zaidman · Moritz Beller"
 links:
   - name: Full Publication / DOI
     url: https://doi.org/10.1145/3379597.3387485
   - name: Dataset
     url: https://zenodo.org/record/3632351
 ---
-
-Carolin Brandt · Annibale Panichella · Andy Zaidman · Moritz Beller
 
 A dataset of continuous integration log files from a variety of 80 GitHub repositories and the chunk of the file that states why the build failed.
 

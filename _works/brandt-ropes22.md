@@ -7,12 +7,11 @@ slug: brandt-ropes22
 type: content # video, music, photo
 image: assets/img/works/ropes22.png
 date: 2022-09-23
+authors: "Carolin Brandt · Andy Zaidman"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/ropes_2022.pdf
 ---
-
-Carolin Brandt · Andy Zaidman
 
 This paper reports on our experience when recruiting participants for a round of semi-structured interviews to evaluate a new tool and process for developer-centric test amplification. We highlight strategies that helped us convince software developers to join and discuss challenges that we faced.
 

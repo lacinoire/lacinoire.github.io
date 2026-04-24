@@ -1326,9 +1326,14 @@
 		.category {
 			margin: 0;
 			font-size: $extra2-small-size;
-			color: $extra-color;
+			color: $default-color;
 			font-weight: 300;
 			text-transform: uppercase;
+		}
+		.authors {
+			margin: 0;
+			color: $extra-color;
+			font-weight: 300;
 		}
 	}
 	.date {
@@ -3703,7 +3708,7 @@
 .box-item .desc .category {
 	margin: 0;
 	font-size: 14px;
-	color: #999999;
+	color: $default-color;
 	text-transform: none;
 }
 

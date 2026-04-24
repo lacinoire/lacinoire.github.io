@@ -7,6 +7,7 @@ slug: brandt-scam23
 type: content # video, music, photo
 image: assets/img/works/ugta.png
 date: 2023-09-23
+authors: "Carolin Brandt · Danyao Wang · Andy Zaidman"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/guided_test_amplification_SCAM_2023.pdf
@@ -17,8 +18,6 @@ links:
   - name: Danyao's Master Thesis
     url: https://repository.tudelft.nl/islandora/object/uuid:61d45fb3-ac3c-447c-a05d-1f7499725a3b
 ---
-
-Carolin Brandt · Danyao Wang · Andy Zaidman
 
 In this paper we compare a user-driven guided approach of test amplification to the original open test amplification approach.
 While the user guidance makes it easier for the developers to understand the amplified tests, and it fits better into their typical workflow of writing tests in conjunction with production code, there are also trade-offs. For example, that now we create the expectation of being able to generate tests for the selected branch, while it can be computationally expensive to find the right branch conditions and initialize the objects under test accordingly.
