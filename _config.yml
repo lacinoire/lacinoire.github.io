@@ -51,6 +51,7 @@ collections:
     output: true
     permalink: /:collection/:title
     output_ext: ""
+    future: true
 
 
 # archives
