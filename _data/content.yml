@@ -280,6 +280,9 @@ awards:
       title: "Awards"
       icon: "ribbon-b"
       items:
+        - label: "Distinguished Reviewer Award at CHASE 2026"
+          value: "0"
+
         - label: "Distinguished Reviewer Award at ICSME 2025"
           value: "0"
 
