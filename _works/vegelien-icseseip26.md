@@ -12,8 +12,8 @@ authors: "George Vegelien · Carolin Brandt · Bas Graaf · Arie van Deursen"
 links:
   - name: Full Publication
     url: https://carolin-brandt.de/publications/vegelien-icseseip26.pdf
-  # - name: DOI
-  #   url: https://doi.org/10.1145/3639477.3639721
+  - name: DOI (open access)
+    url: https://doi.org/10.1145/3786583.3786891
   # - name: Presentation Slides
   #   url: https://carolin-brandt.de/publications/brandt-icseseip24-slides.pdf
   # - name: Replication Package

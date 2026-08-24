@@ -15,8 +15,8 @@ links:
   #   url: https://carolin-brandt.de/publications/vanderlinden-devopssustain26-slides.pdf
   # - name: Replication Package
   #   url: https://zenodo.org/doi/...
-  # - name: DOI
-  #   url: https://doi.org/...
+  - name: DOI (open access)
+    url: https://doi.org/10.1145/3803437.3805601
 ---
 
 ### Abstract

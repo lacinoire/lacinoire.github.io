@@ -15,8 +15,8 @@ links:
   #   url: https://carolin-brandt.de/publications/elhaji-ast24-slides.pdf
   # - name: Replication Package
   #   url: https://zenodo.org/doi/10.5281/zenodo.8025360
-  # - name: DOI
-  #   url: https://doi.org/10.1145/3644032.3644443
+  - name: DOI (open access)
+    url: https://doi.org/10.1145/3803437.3806707
   # - name: Khalid's Master Thesis
   #   url: https://repository.tudelft.nl/islandora/object/uuid:57973043-efa8-4534-9afe-c64287c22d64
 ---
